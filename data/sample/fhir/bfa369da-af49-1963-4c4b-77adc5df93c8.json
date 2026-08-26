@@ -1,0 +1,3237 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "bfa369da-af49-1963-4c4b-77adc5df93c8",
+        "name": [
+          {
+            "use": "official",
+            "family": "Kelly",
+            "given": [
+              "Edward",
+              "Patricia"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1940-04-14",
+        "address": [
+          {
+            "line": [
+              "1686 Molina Villages Apt. 503"
+            ],
+            "city": "South Christopherton",
+            "state": "Massachusetts",
+            "postalCode": "01512"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "861-50-6798"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "a1076c45-c681-2e99-cea6-3a25d9173883",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185345009",
+                "display": "Encounter for symptom (procedure)"
+              }
+            ],
+            "text": "Encounter for symptom (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1940-09-15T12:00:00Z",
+          "end": "1940-09-15T13:00:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e31cde72-748c-c59c-9d48-604af674d1c2",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "e31cde72-748c-c59c-9d48-604af674d1c2",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+              }
+            ],
+            "text": "Encounter for check up (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1948-10-22T12:00:00Z",
+          "end": "1948-10-22T12:45:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7676878a-1180-737b-5a4a-cad3569e8540",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "7676878a-1180-737b-5a4a-cad3569e8540",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "wellness"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "162673000",
+                "display": "General examination of patient (procedure)"
+              }
+            ],
+            "text": "General examination of patient (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1956-02-14T09:00:00Z",
+          "end": "1956-02-14T09:30:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f636f842-b696-5f4f-b0b5-b9e9e71b2c73",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "f636f842-b696-5f4f-b0b5-b9e9e71b2c73",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "urgentcare"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "702927004",
+                "display": "Urgent care clinic (procedure)"
+              }
+            ],
+            "text": "Urgent care clinic (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1959-02-28T14:00:00Z",
+          "end": "1959-02-28T14:15:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "44d162ba-3047-65ef-2937-5273e65dd4bd",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "urgentcare"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "702927004",
+                "display": "Urgent care clinic (procedure)"
+              }
+            ],
+            "text": "Urgent care clinic (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1966-04-16T15:00:00Z",
+          "end": "1966-04-16T15:45:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b1cfe6f-07e9-955d-e84e-5645d920015d",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "0b1cfe6f-07e9-955d-e84e-5645d920015d",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+              }
+            ],
+            "text": "Encounter for check up (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1969-12-29T16:00:00Z",
+          "end": "1969-12-29T16:45:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b99a6fc4-e138-f4be-1471-3a363d268b2a",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "b99a6fc4-e138-f4be-1471-3a363d268b2a",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "urgentcare"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "702927004",
+                "display": "Urgent care clinic (procedure)"
+              }
+            ],
+            "text": "Urgent care clinic (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1970-05-16T16:00:00Z",
+          "end": "1970-05-16T16:20:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98abea06-c326-0d13-5c3b-8eda4a26789b",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "98abea06-c326-0d13-5c3b-8eda4a26789b",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "urgentcare"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "702927004",
+                "display": "Urgent care clinic (procedure)"
+              }
+            ],
+            "text": "Urgent care clinic (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1974-09-22T13:00:00Z",
+          "end": "1974-09-22T13:15:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c7e9171-3d95-7d8a-3cb2-abfa1000587a",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "9c7e9171-3d95-7d8a-3cb2-abfa1000587a",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185345009",
+                "display": "Encounter for symptom (procedure)"
+              }
+            ],
+            "text": "Encounter for symptom (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1976-05-05T12:00:00Z",
+          "end": "1976-05-05T12:45:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f655fd0-f8fe-1a69-1448-70537aacf9e8",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "6f655fd0-f8fe-1a69-1448-70537aacf9e8",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185345009",
+                "display": "Encounter for symptom (procedure)"
+              }
+            ],
+            "text": "Encounter for symptom (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1986-07-28T16:00:00Z",
+          "end": "1986-07-28T16:45:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "82d99caa-dd79-0900-25af-7f6124d544a5",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "ambulatory"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+              }
+            ],
+            "text": "Encounter for check up (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "1989-07-23T16:00:00Z",
+          "end": "1989-07-23T16:30:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:969f50e7-43b8-5aff-bf55-81f78395c8aa",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "969f50e7-43b8-5aff-bf55-81f78395c8aa",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "outpatient"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185345009",
+                "display": "Encounter for symptom (procedure)"
+              }
+            ],
+            "text": "Encounter for symptom (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "period": {
+          "start": "2015-11-02T10:00:00Z",
+          "end": "2015-11-02T10:45:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:67999a18-a740-f589-f05d-47b5a57e0ac9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "67999a18-a740-f589-f05d-47b5a57e0ac9",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus (disorder)"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "onsetDateTime": "1940-09-15"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Condition"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe66a104-90ce-c39a-5f6a-98f97e4a9b0d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "fe66a104-90ce-c39a-5f6a-98f97e4a9b0d",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "10509002",
+              "display": "Acute bronchitis (disorder)"
+            }
+          ],
+          "text": "Acute bronchitis (disorder)"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:7676878a-1180-737b-5a4a-cad3569e8540"
+        },
+        "onsetDateTime": "1956-02-14"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Condition"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:697ea1e9-b94c-bad7-e4a3-edad887209d3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "697ea1e9-b94c-bad7-e4a3-edad887209d3",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "43878008",
+              "display": "Streptococcal sore throat (disorder)"
+            }
+          ],
+          "text": "Streptococcal sore throat (disorder)"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:f636f842-b696-5f4f-b0b5-b9e9e71b2c73"
+        },
+        "onsetDateTime": "1959-02-28"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Condition"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f323a07-cf5c-fe7c-11fa-0c2a0442f73b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0f323a07-cf5c-fe7c-11fa-0c2a0442f73b",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "effectiveDateTime": "1940-09-15T12:00:00Z",
+        "valueQuantity": {
+          "value": 83.6,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cda4adc3-4415-ead3-14bd-4af2415e2579",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cda4adc3-4415-ead3-14bd-4af2415e2579",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "effectiveDateTime": "1940-09-15T12:00:00Z",
+        "valueQuantity": {
+          "value": 192.0,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e05949e7-1b28-1e66-383c-417951513b7c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e05949e7-1b28-1e66-383c-417951513b7c",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "effectiveDateTime": "1940-09-15T12:00:00Z",
+        "valueQuantity": {
+          "value": 83.4,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:991c52d7-46bd-2360-9496-c677aac5fc5f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "991c52d7-46bd-2360-9496-c677aac5fc5f",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "effectiveDateTime": "1940-09-15T12:00:00Z",
+        "valueQuantity": {
+          "value": 142.4,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc346d3e-d542-a4e4-8968-a24e0ca963d8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fc346d3e-d542-a4e4-8968-a24e0ca963d8",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "effectiveDateTime": "1940-09-15T12:00:00Z",
+        "valueQuantity": {
+          "value": 187.7,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83a5d2e1-a004-a2a1-04f5-15aa4e2173b2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "83a5d2e1-a004-a2a1-04f5-15aa4e2173b2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "effectiveDateTime": "1940-09-15T12:00:00Z",
+        "valueQuantity": {
+          "value": 29.3,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:21e13449-06d8-0cf9-3f1b-724e2227dc35",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "21e13449-06d8-0cf9-3f1b-724e2227dc35",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:e31cde72-748c-c59c-9d48-604af674d1c2"
+        },
+        "effectiveDateTime": "1948-10-22T12:00:00Z",
+        "valueQuantity": {
+          "value": 7.6,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da769b1d-db8c-52e0-c08f-a2ae498a1e14",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "da769b1d-db8c-52e0-c08f-a2ae498a1e14",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:e31cde72-748c-c59c-9d48-604af674d1c2"
+        },
+        "effectiveDateTime": "1948-10-22T12:00:00Z",
+        "valueQuantity": {
+          "value": 69.9,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4730a038-487a-c341-7745-52c7b21504ff",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4730a038-487a-c341-7745-52c7b21504ff",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:e31cde72-748c-c59c-9d48-604af674d1c2"
+        },
+        "effectiveDateTime": "1948-10-22T12:00:00Z",
+        "valueQuantity": {
+          "value": 151.5,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d2794a59-b729-fd54-4638-d7441032aa80",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d2794a59-b729-fd54-4638-d7441032aa80",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:e31cde72-748c-c59c-9d48-604af674d1c2"
+        },
+        "effectiveDateTime": "1948-10-22T12:00:00Z",
+        "valueQuantity": {
+          "value": 25.5,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99e012f9-3560-ef91-5da8-a186525bdcbd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "99e012f9-3560-ef91-5da8-a186525bdcbd",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:e31cde72-748c-c59c-9d48-604af674d1c2"
+        },
+        "effectiveDateTime": "1948-10-22T12:00:00Z",
+        "valueQuantity": {
+          "value": 59.9,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d81ba05a-5835-2628-e768-56379bbc4c2e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d81ba05a-5835-2628-e768-56379bbc4c2e",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:e31cde72-748c-c59c-9d48-604af674d1c2"
+        },
+        "effectiveDateTime": "1948-10-22T12:00:00Z",
+        "valueQuantity": {
+          "value": 121.5,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:feac418e-3027-f6eb-b85f-cb23d1455bc2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "feac418e-3027-f6eb-b85f-cb23d1455bc2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:7676878a-1180-737b-5a4a-cad3569e8540"
+        },
+        "effectiveDateTime": "1956-02-14T09:00:00Z",
+        "valueQuantity": {
+          "value": 70.4,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dcf30fee-5e03-e667-745c-3554682960c8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dcf30fee-5e03-e667-745c-3554682960c8",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:7676878a-1180-737b-5a4a-cad3569e8540"
+        },
+        "effectiveDateTime": "1956-02-14T09:00:00Z",
+        "valueQuantity": {
+          "value": 90.7,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4037f146-c233-467f-a79a-e28e9a79bbd2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4037f146-c233-467f-a79a-e28e9a79bbd2",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:7676878a-1180-737b-5a4a-cad3569e8540"
+        },
+        "effectiveDateTime": "1956-02-14T09:00:00Z",
+        "valueQuantity": {
+          "value": 167.6,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc546e54-8119-3fe0-3421-f8044812a603",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cc546e54-8119-3fe0-3421-f8044812a603",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:7676878a-1180-737b-5a4a-cad3569e8540"
+        },
+        "effectiveDateTime": "1956-02-14T09:00:00Z",
+        "valueQuantity": {
+          "value": 91.7,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3279e62-cee9-359f-9499-10c9334fda58",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c3279e62-cee9-359f-9499-10c9334fda58",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:f636f842-b696-5f4f-b0b5-b9e9e71b2c73"
+        },
+        "effectiveDateTime": "1959-02-28T14:00:00Z",
+        "valueQuantity": {
+          "value": 71.4,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:29ddf5d3-52ae-7221-27ff-ef5c8bffb38c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "29ddf5d3-52ae-7221-27ff-ef5c8bffb38c",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:f636f842-b696-5f4f-b0b5-b9e9e71b2c73"
+        },
+        "effectiveDateTime": "1959-02-28T14:00:00Z",
+        "valueQuantity": {
+          "value": 73.5,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6948d26e-34b2-df80-f44e-34a363e923f7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6948d26e-34b2-df80-f44e-34a363e923f7",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:f636f842-b696-5f4f-b0b5-b9e9e71b2c73"
+        },
+        "effectiveDateTime": "1959-02-28T14:00:00Z",
+        "valueQuantity": {
+          "value": 179.2,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eb6d1884-7eac-01c3-2315-c38454ad3e68",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "eb6d1884-7eac-01c3-2315-c38454ad3e68",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:f636f842-b696-5f4f-b0b5-b9e9e71b2c73"
+        },
+        "effectiveDateTime": "1959-02-28T14:00:00Z",
+        "valueQuantity": {
+          "value": 140.4,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a9cebab-607d-07a7-9fee-bc5b578d787d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7a9cebab-607d-07a7-9fee-bc5b578d787d",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd"
+        },
+        "effectiveDateTime": "1966-04-16T15:00:00Z",
+        "valueQuantity": {
+          "value": 68.6,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7e9845e9-1268-695d-19ae-fd022e61793e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7e9845e9-1268-695d-19ae-fd022e61793e",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd"
+        },
+        "effectiveDateTime": "1966-04-16T15:00:00Z",
+        "valueQuantity": {
+          "value": 86.3,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:25ea93a7-fc72-98fa-1e1a-e8a99b709b9e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "25ea93a7-fc72-98fa-1e1a-e8a99b709b9e",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd"
+        },
+        "effectiveDateTime": "1966-04-16T15:00:00Z",
+        "valueQuantity": {
+          "value": 81.2,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:624b8a05-803e-d613-f597-47d5786da82a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "624b8a05-803e-d613-f597-47d5786da82a",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd"
+        },
+        "effectiveDateTime": "1966-04-16T15:00:00Z",
+        "valueQuantity": {
+          "value": 132.3,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:39c4f75a-e4ef-5dd3-3d9b-23087086f84d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "39c4f75a-e4ef-5dd3-3d9b-23087086f84d",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd"
+        },
+        "effectiveDateTime": "1966-04-16T15:00:00Z",
+        "valueQuantity": {
+          "value": 169.6,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af62bd6f-41c8-9c9e-1c9b-bf78eff0e097",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "af62bd6f-41c8-9c9e-1c9b-bf78eff0e097",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd"
+        },
+        "effectiveDateTime": "1966-04-16T15:00:00Z",
+        "valueQuantity": {
+          "value": 72.7,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98647fe6-49f2-1b27-8287-59af213548ea",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "98647fe6-49f2-1b27-8287-59af213548ea",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:0b1cfe6f-07e9-955d-e84e-5645d920015d"
+        },
+        "effectiveDateTime": "1969-12-29T16:00:00Z",
+        "valueQuantity": {
+          "value": 124.2,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a601f3fe-c744-6d96-c463-b62de0387735",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a601f3fe-c744-6d96-c463-b62de0387735",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:0b1cfe6f-07e9-955d-e84e-5645d920015d"
+        },
+        "effectiveDateTime": "1969-12-29T16:00:00Z",
+        "valueQuantity": {
+          "value": 6.5,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5e9be079-2a40-5305-e430-dc5c7a4a5a63",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5e9be079-2a40-5305-e430-dc5c7a4a5a63",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:0b1cfe6f-07e9-955d-e84e-5645d920015d"
+        },
+        "effectiveDateTime": "1969-12-29T16:00:00Z",
+        "valueQuantity": {
+          "value": 229.6,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0519fe49-6400-ec0d-f9b7-d51208afbb3f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0519fe49-6400-ec0d-f9b7-d51208afbb3f",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:b99a6fc4-e138-f4be-1471-3a363d268b2a"
+        },
+        "effectiveDateTime": "1970-05-16T16:00:00Z",
+        "valueQuantity": {
+          "value": 64.7,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a886299a-f514-1e1f-d012-8e66792df533",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a886299a-f514-1e1f-d012-8e66792df533",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:b99a6fc4-e138-f4be-1471-3a363d268b2a"
+        },
+        "effectiveDateTime": "1970-05-16T16:00:00Z",
+        "valueQuantity": {
+          "value": 196.7,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:069a8f2b-aa83-3660-5d9c-317eea0846b4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "069a8f2b-aa83-3660-5d9c-317eea0846b4",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:b99a6fc4-e138-f4be-1471-3a363d268b2a"
+        },
+        "effectiveDateTime": "1970-05-16T16:00:00Z",
+        "valueQuantity": {
+          "value": 186.0,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eda1e274-e5bc-2f57-6948-b68845f24a49",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "eda1e274-e5bc-2f57-6948-b68845f24a49",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:98abea06-c326-0d13-5c3b-8eda4a26789b"
+        },
+        "effectiveDateTime": "1974-09-22T13:00:00Z",
+        "valueQuantity": {
+          "value": 176.7,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c09f2dcd-52d0-4efc-9a93-4c333861be13",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c09f2dcd-52d0-4efc-9a93-4c333861be13",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:98abea06-c326-0d13-5c3b-8eda4a26789b"
+        },
+        "effectiveDateTime": "1974-09-22T13:00:00Z",
+        "valueQuantity": {
+          "value": 137.3,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:79313f2f-e46b-e900-ca7e-6e3d1b7c3409",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "79313f2f-e46b-e900-ca7e-6e3d1b7c3409",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:98abea06-c326-0d13-5c3b-8eda4a26789b"
+        },
+        "effectiveDateTime": "1974-09-22T13:00:00Z",
+        "valueQuantity": {
+          "value": 67.5,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83ffa2be-2ad4-0541-26b1-9c5e4e3c0b46",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "83ffa2be-2ad4-0541-26b1-9c5e4e3c0b46",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:9c7e9171-3d95-7d8a-3cb2-abfa1000587a"
+        },
+        "effectiveDateTime": "1976-05-05T12:00:00Z",
+        "valueQuantity": {
+          "value": 7.4,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22425c41-b52e-5c6b-f1b0-8d07701e8b21",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "22425c41-b52e-5c6b-f1b0-8d07701e8b21",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:9c7e9171-3d95-7d8a-3cb2-abfa1000587a"
+        },
+        "effectiveDateTime": "1976-05-05T12:00:00Z",
+        "valueQuantity": {
+          "value": 259.3,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:617d7705-e650-53c8-04e9-d37d9f346d3a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "617d7705-e650-53c8-04e9-d37d9f346d3a",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:9c7e9171-3d95-7d8a-3cb2-abfa1000587a"
+        },
+        "effectiveDateTime": "1976-05-05T12:00:00Z",
+        "valueQuantity": {
+          "value": 106.7,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05d5773e-74b7-b39f-206e-38565c8f8310",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "05d5773e-74b7-b39f-206e-38565c8f8310",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:9c7e9171-3d95-7d8a-3cb2-abfa1000587a"
+        },
+        "effectiveDateTime": "1976-05-05T12:00:00Z",
+        "valueQuantity": {
+          "value": 103.7,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f25358ff-3661-4221-dafa-0fe9f9ea5817",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f25358ff-3661-4221-dafa-0fe9f9ea5817",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:9c7e9171-3d95-7d8a-3cb2-abfa1000587a"
+        },
+        "effectiveDateTime": "1976-05-05T12:00:00Z",
+        "valueQuantity": {
+          "value": 33.9,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8be1c21e-b46a-560c-d0a7-b99623020e9a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8be1c21e-b46a-560c-d0a7-b99623020e9a",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:6f655fd0-f8fe-1a69-1448-70537aacf9e8"
+        },
+        "effectiveDateTime": "1986-07-28T16:00:00Z",
+        "valueQuantity": {
+          "value": 117.5,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22e29292-421d-c102-fe65-77dc5c4e3812",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "22e29292-421d-c102-fe65-77dc5c4e3812",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:6f655fd0-f8fe-1a69-1448-70537aacf9e8"
+        },
+        "effectiveDateTime": "1986-07-28T16:00:00Z",
+        "valueQuantity": {
+          "value": 68.8,
+          "unit": "/min",
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cae87d29-0058-5350-b5dd-71c8ce4ed5d4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cae87d29-0058-5350-b5dd-71c8ce4ed5d4",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:6f655fd0-f8fe-1a69-1448-70537aacf9e8"
+        },
+        "effectiveDateTime": "1986-07-28T16:00:00Z",
+        "valueQuantity": {
+          "value": 28.1,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:893257b3-7be1-b60f-bd10-866bbc9bdde9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "893257b3-7be1-b60f-bd10-866bbc9bdde9",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:6f655fd0-f8fe-1a69-1448-70537aacf9e8"
+        },
+        "effectiveDateTime": "1986-07-28T16:00:00Z",
+        "valueQuantity": {
+          "value": 60.0,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23d11081-0f11-56d8-cf49-db95c5cf8a56",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "23d11081-0f11-56d8-cf49-db95c5cf8a56",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:6f655fd0-f8fe-1a69-1448-70537aacf9e8"
+        },
+        "effectiveDateTime": "1986-07-28T16:00:00Z",
+        "valueQuantity": {
+          "value": 69.8,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba57e6c1-d245-fb83-b3af-a2f88a84214a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ba57e6c1-d245-fb83-b3af-a2f88a84214a",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5"
+        },
+        "effectiveDateTime": "1989-07-23T16:00:00Z",
+        "valueQuantity": {
+          "value": 64.7,
+          "unit": "kg",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bea3d4ff-8c6a-1fd4-05c8-d56043b80a03",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bea3d4ff-8c6a-1fd4-05c8-d56043b80a03",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4",
+              "display": "Diastolic Blood Pressure"
+            }
+          ],
+          "text": "Diastolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5"
+        },
+        "effectiveDateTime": "1989-07-23T16:00:00Z",
+        "valueQuantity": {
+          "value": 65.9,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a84f855-5f0f-826c-94f1-f80111d95971",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6a84f855-5f0f-826c-94f1-f80111d95971",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5"
+        },
+        "effectiveDateTime": "1989-07-23T16:00:00Z",
+        "valueQuantity": {
+          "value": 157.0,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3412b3b2-cc66-9d1a-5b6e-f56e78e3add0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3412b3b2-cc66-9d1a-5b6e-f56e78e3add0",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5"
+        },
+        "effectiveDateTime": "1989-07-23T16:00:00Z",
+        "valueQuantity": {
+          "value": 8.0,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e65b2960-b674-d9aa-baa2-698e4c7a157f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e65b2960-b674-d9aa-baa2-698e4c7a157f",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5"
+        },
+        "effectiveDateTime": "1989-07-23T16:00:00Z",
+        "valueQuantity": {
+          "value": 82.2,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98acd477-23d2-7ffb-8288-67a393937224",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "98acd477-23d2-7ffb-8288-67a393937224",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5"
+        },
+        "effectiveDateTime": "1989-07-23T16:00:00Z",
+        "valueQuantity": {
+          "value": 27.7,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0aeb0096-29e4-9d1f-7fd0-a84c90418bec",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0aeb0096-29e4-9d1f-7fd0-a84c90418bec",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6",
+              "display": "Systolic Blood Pressure"
+            }
+          ],
+          "text": "Systolic Blood Pressure"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:969f50e7-43b8-5aff-bf55-81f78395c8aa"
+        },
+        "effectiveDateTime": "2015-11-02T10:00:00Z",
+        "valueQuantity": {
+          "value": 154.2,
+          "unit": "mm[Hg]",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af44c8ed-1adb-c997-67b1-521e06b3b312",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "af44c8ed-1adb-c997-67b1-521e06b3b312",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:969f50e7-43b8-5aff-bf55-81f78395c8aa"
+        },
+        "effectiveDateTime": "2015-11-02T10:00:00Z",
+        "valueQuantity": {
+          "value": 153.3,
+          "unit": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mg/dL"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd82899a-5ddb-612f-73fb-6abfb5f38e36",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cd82899a-5ddb-612f-73fb-6abfb5f38e36",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ],
+          "text": "Body mass index (BMI) [Ratio]"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:969f50e7-43b8-5aff-bf55-81f78395c8aa"
+        },
+        "effectiveDateTime": "2015-11-02T10:00:00Z",
+        "valueQuantity": {
+          "value": 34.4,
+          "unit": "kg/m2",
+          "system": "http://unitsofmeasure.org",
+          "code": "kg/m2"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e65e7355-af23-dfa1-4c0c-90844f948fbe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e65e7355-af23-dfa1-4c0c-90844f948fbe",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:969f50e7-43b8-5aff-bf55-81f78395c8aa"
+        },
+        "effectiveDateTime": "2015-11-02T10:00:00Z",
+        "valueQuantity": {
+          "value": 160.7,
+          "unit": "cm",
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7dd21382-7ecd-8a48-07ec-285584cf5f6d",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "7dd21382-7ecd-8a48-07ec-285584cf5f6d",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "860975",
+              "display": "metformin hydrochloride 500 MG Oral Tablet"
+            }
+          ],
+          "text": "metformin hydrochloride 500 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:a1076c45-c681-2e99-cea6-3a25d9173883"
+        },
+        "authoredOn": "1940-09-15"
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicationRequest"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14e159ed-11ec-9417-21a8-cd4557046689",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "14e159ed-11ec-9417-21a8-cd4557046689",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "860975",
+              "display": "metformin hydrochloride 500 MG Oral Tablet"
+            }
+          ],
+          "text": "metformin hydrochloride 500 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:44d162ba-3047-65ef-2937-5273e65dd4bd"
+        },
+        "authoredOn": "1966-04-16"
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicationRequest"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b3f8edf-8455-380a-6252-23dea0314854",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "3b3f8edf-8455-380a-6252-23dea0314854",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "860975",
+              "display": "metformin hydrochloride 500 MG Oral Tablet"
+            }
+          ],
+          "text": "metformin hydrochloride 500 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:6f655fd0-f8fe-1a69-1448-70537aacf9e8"
+        },
+        "authoredOn": "1986-07-28"
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicationRequest"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9167942-4f37-bbdf-4b48-3e706778962d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e9167942-4f37-bbdf-4b48-3e706778962d",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "5880005",
+              "display": "Physical examination procedure (procedure)"
+            }
+          ],
+          "text": "Physical examination procedure (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:f636f842-b696-5f4f-b0b5-b9e9e71b2c73"
+        },
+        "performedPeriod": {
+          "start": "1959-02-28T14:00:00Z",
+          "end": "1959-02-28T14:15:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Procedure"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d8230a0-db5e-c25f-a9b0-ffa79d11d0a8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8d8230a0-db5e-c25f-a9b0-ffa79d11d0a8",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:0b1cfe6f-07e9-955d-e84e-5645d920015d"
+        },
+        "performedPeriod": {
+          "start": "1969-12-29T16:00:00Z",
+          "end": "1969-12-29T16:45:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Procedure"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc797c15-3706-84ab-01ce-c57a55a1c680",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cc797c15-3706-84ab-01ce-c57a55a1c680",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "5880005",
+              "display": "Physical examination procedure (procedure)"
+            }
+          ],
+          "text": "Physical examination procedure (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:bfa369da-af49-1963-4c4b-77adc5df93c8"
+        },
+        "encounter": {
+          "reference": "urn:uuid:82d99caa-dd79-0900-25af-7f6124d544a5"
+        },
+        "performedPeriod": {
+          "start": "1989-07-23T16:00:00Z",
+          "end": "1989-07-23T16:30:00Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Procedure"
+      }
+    }
+  ]
+}

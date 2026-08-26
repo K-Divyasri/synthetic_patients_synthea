@@ -1,0 +1,19 @@
+DATE,PATIENT,ENCOUNTER,CODE,DESCRIPTION,COST
+2006-11-24T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,33,"pneumococcal polysaccharide vaccine, 23 valent",23.09
+2024-11-11T13:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,52d700ac-5b13-0474-6829-707e125d09a3,33,"pneumococcal polysaccharide vaccine, 23 valent",49.99
+2007-09-25T13:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,21842951-69e7-b48d-10f1-0fd1cdac75e2,113,Td (adult) preservative free,84.24
+2020-09-12T16:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,016fe28f-9fbf-dbde-b1f2-1baa10f10170,113,Td (adult) preservative free,44.96
+2025-02-20T11:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,54d2be99-0234-128f-2c35-c5e57260bf86,140,"Influenza, seasonal, injectable, preservative free",111.96
+1957-04-24T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,674bb402-389f-83e0-20ec-fbde5505a8c6,33,"pneumococcal polysaccharide vaccine, 23 valent",109.28
+2004-07-19T15:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,140,"Influenza, seasonal, injectable, preservative free",121.01
+2009-05-21T10:00:00Z,76345358-d233-a081-9288-6fddac584d88,16cf421f-a645-5f26-a851-305d1507cbc5,113,Td (adult) preservative free,106.93
+2018-09-16T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,8e9edd45-8dad-87e8-05df-8f6d254c38f9,113,Td (adult) preservative free,25.44
+2002-02-19T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,31d8380d-196a-94f4-1543-f5b16e29cbae,33,"pneumococcal polysaccharide vaccine, 23 valent",129.93
+2018-03-14T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,e8cff4dc-626b-f48a-918d-37e1fce513ca,113,Td (adult) preservative free,134.51
+2001-05-27T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,f02341d0-6c1a-3503-080f-a337fbf74865,140,"Influenza, seasonal, injectable, preservative free",59.25
+2016-12-07T14:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,acc94ca0-9c42-35f4-e137-2b5212cee09a,140,"Influenza, seasonal, injectable, preservative free",90.47
+2002-02-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,f09fdc53-a432-ce3c-44fe-f2e688cb2591,113,Td (adult) preservative free,112.37
+1975-10-07T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,b11b4bb4-d834-7230-fede-7eaa39573412,33,"pneumococcal polysaccharide vaccine, 23 valent",35.76
+1993-12-10T12:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,acf1546f-daaf-70b3-7b13-2e1890b40a6d,33,"pneumococcal polysaccharide vaccine, 23 valent",66.02
+1997-09-09T10:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,88c64794-7ed5-0777-f680-d43f0080a1df,140,"Influenza, seasonal, injectable, preservative free",26.54
+2017-05-14T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,cb4958d6-d45a-f3e9-3dfc-157ce30213ef,140,"Influenza, seasonal, injectable, preservative free",120.31

@@ -1,0 +1,632 @@
+DATE,PATIENT,ENCOUNTER,CATEGORY,CODE,DESCRIPTION,VALUE,UNITS,TYPE
+2006-11-24T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,256.9,mg/dL,numeric
+2006-11-24T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,vital-signs,8302-2,Body Height,176.5,cm,numeric
+2006-11-24T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,vital-signs,8867-4,Heart rate,71.0,/min,numeric
+2006-11-24T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.3,%,numeric
+2006-11-24T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,vital-signs,2339-0,Glucose [Mass/volume] in Blood,145.9,mg/dL,numeric
+2006-11-24T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,vital-signs,29463-7,Body Weight,90.4,kg,numeric
+2007-11-04T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,63641911-0b21-bbba-6d5f-cd18acf7af15,vital-signs,8480-6,Systolic Blood Pressure,111.4,mm[Hg],numeric
+2007-11-04T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,63641911-0b21-bbba-6d5f-cd18acf7af15,vital-signs,39156-5,Body mass index (BMI) [Ratio],33.0,kg/m2,numeric
+2007-11-04T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,63641911-0b21-bbba-6d5f-cd18acf7af15,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,248.6,mg/dL,numeric
+2007-11-04T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,63641911-0b21-bbba-6d5f-cd18acf7af15,vital-signs,8462-4,Diastolic Blood Pressure,60.3,mm[Hg],numeric
+2007-11-04T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,63641911-0b21-bbba-6d5f-cd18acf7af15,vital-signs,2339-0,Glucose [Mass/volume] in Blood,99.5,mg/dL,numeric
+2007-11-04T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,63641911-0b21-bbba-6d5f-cd18acf7af15,vital-signs,29463-7,Body Weight,96.2,kg,numeric
+2008-06-09T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,ab288d38-c993-2fb6-e1c8-8247528c8100,vital-signs,8480-6,Systolic Blood Pressure,141.6,mm[Hg],numeric
+2008-06-09T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,ab288d38-c993-2fb6-e1c8-8247528c8100,vital-signs,8462-4,Diastolic Blood Pressure,65.3,mm[Hg],numeric
+2008-06-09T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,ab288d38-c993-2fb6-e1c8-8247528c8100,vital-signs,2339-0,Glucose [Mass/volume] in Blood,167.5,mg/dL,numeric
+2008-06-09T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,ab288d38-c993-2fb6-e1c8-8247528c8100,vital-signs,39156-5,Body mass index (BMI) [Ratio],26.4,kg/m2,numeric
+2008-06-09T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,ab288d38-c993-2fb6-e1c8-8247528c8100,vital-signs,8302-2,Body Height,159.6,cm,numeric
+2008-06-09T09:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,ab288d38-c993-2fb6-e1c8-8247528c8100,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.7,%,numeric
+2024-05-17T08:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,efb8c545-eb80-cd26-b803-511c9feedf85,vital-signs,8302-2,Body Height,171.4,cm,numeric
+2024-05-17T08:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,efb8c545-eb80-cd26-b803-511c9feedf85,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,232.6,mg/dL,numeric
+2024-05-17T08:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,efb8c545-eb80-cd26-b803-511c9feedf85,vital-signs,2339-0,Glucose [Mass/volume] in Blood,111.7,mg/dL,numeric
+2024-05-17T08:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,efb8c545-eb80-cd26-b803-511c9feedf85,vital-signs,8480-6,Systolic Blood Pressure,105.9,mm[Hg],numeric
+2024-11-11T13:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,52d700ac-5b13-0474-6829-707e125d09a3,vital-signs,39156-5,Body mass index (BMI) [Ratio],22.8,kg/m2,numeric
+2024-11-11T13:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,52d700ac-5b13-0474-6829-707e125d09a3,vital-signs,8302-2,Body Height,163.1,cm,numeric
+2024-11-11T13:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,52d700ac-5b13-0474-6829-707e125d09a3,vital-signs,8867-4,Heart rate,97.5,/min,numeric
+2024-11-11T13:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,52d700ac-5b13-0474-6829-707e125d09a3,vital-signs,8462-4,Diastolic Blood Pressure,60.3,mm[Hg],numeric
+2024-11-11T13:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,52d700ac-5b13-0474-6829-707e125d09a3,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,176.8,mg/dL,numeric
+2024-11-11T13:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,52d700ac-5b13-0474-6829-707e125d09a3,vital-signs,8480-6,Systolic Blood Pressure,116.8,mm[Hg],numeric
+2025-05-16T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,0c9aefb8-dad5-796a-c912-8d4f75aa70c8,vital-signs,39156-5,Body mass index (BMI) [Ratio],20.7,kg/m2,numeric
+2025-05-16T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,0c9aefb8-dad5-796a-c912-8d4f75aa70c8,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,194.3,mg/dL,numeric
+2025-05-16T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,0c9aefb8-dad5-796a-c912-8d4f75aa70c8,vital-signs,8480-6,Systolic Blood Pressure,125.7,mm[Hg],numeric
+2025-05-16T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,0c9aefb8-dad5-796a-c912-8d4f75aa70c8,vital-signs,29463-7,Body Weight,71.9,kg,numeric
+2025-05-16T14:00:00Z,87751d4c-a850-1e2c-44dc-da6a797d76de,0c9aefb8-dad5-796a-c912-8d4f75aa70c8,vital-signs,8462-4,Diastolic Blood Pressure,76.3,mm[Hg],numeric
+1972-05-18T11:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf6f4c90-0351-0e48-0ae5-de174ef43b6f,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,212.4,mg/dL,numeric
+1972-05-18T11:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf6f4c90-0351-0e48-0ae5-de174ef43b6f,vital-signs,2339-0,Glucose [Mass/volume] in Blood,112.7,mg/dL,numeric
+1972-05-18T11:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf6f4c90-0351-0e48-0ae5-de174ef43b6f,vital-signs,8867-4,Heart rate,73.7,/min,numeric
+1972-05-18T11:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf6f4c90-0351-0e48-0ae5-de174ef43b6f,vital-signs,39156-5,Body mass index (BMI) [Ratio],28.3,kg/m2,numeric
+1972-05-18T11:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf6f4c90-0351-0e48-0ae5-de174ef43b6f,vital-signs,8480-6,Systolic Blood Pressure,142.9,mm[Hg],numeric
+1972-05-18T11:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf6f4c90-0351-0e48-0ae5-de174ef43b6f,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.9,%,numeric
+1982-06-28T16:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,1a605d97-b0bd-e16f-5dce-d967db029df2,vital-signs,29463-7,Body Weight,63.7,kg,numeric
+1982-06-28T16:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,1a605d97-b0bd-e16f-5dce-d967db029df2,vital-signs,8302-2,Body Height,187.0,cm,numeric
+1982-06-28T16:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,1a605d97-b0bd-e16f-5dce-d967db029df2,vital-signs,8462-4,Diastolic Blood Pressure,79.0,mm[Hg],numeric
+1989-02-13T10:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,af81111b-c3e5-edba-cbff-2e68fc9a2506,vital-signs,8867-4,Heart rate,57.9,/min,numeric
+1989-02-13T10:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,af81111b-c3e5-edba-cbff-2e68fc9a2506,vital-signs,8480-6,Systolic Blood Pressure,120.5,mm[Hg],numeric
+1989-02-13T10:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,af81111b-c3e5-edba-cbff-2e68fc9a2506,vital-signs,8462-4,Diastolic Blood Pressure,70.7,mm[Hg],numeric
+1989-02-13T10:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,af81111b-c3e5-edba-cbff-2e68fc9a2506,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,203.4,mg/dL,numeric
+1989-02-13T10:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,af81111b-c3e5-edba-cbff-2e68fc9a2506,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.7,%,numeric
+1989-02-13T10:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,af81111b-c3e5-edba-cbff-2e68fc9a2506,vital-signs,39156-5,Body mass index (BMI) [Ratio],31.3,kg/m2,numeric
+1997-07-31T12:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,27f12917-8c4e-23fd-5cd8-40832c3e2553,vital-signs,8867-4,Heart rate,99.6,/min,numeric
+1997-07-31T12:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,27f12917-8c4e-23fd-5cd8-40832c3e2553,vital-signs,39156-5,Body mass index (BMI) [Ratio],30.8,kg/m2,numeric
+1997-07-31T12:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,27f12917-8c4e-23fd-5cd8-40832c3e2553,vital-signs,2339-0,Glucose [Mass/volume] in Blood,74.7,mg/dL,numeric
+1997-07-31T12:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,27f12917-8c4e-23fd-5cd8-40832c3e2553,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.1,%,numeric
+1997-07-31T12:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,27f12917-8c4e-23fd-5cd8-40832c3e2553,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,199.9,mg/dL,numeric
+1998-01-29T09:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf4d58be-29e7-0e0e-400e-dab8dd95423a,vital-signs,2339-0,Glucose [Mass/volume] in Blood,121.2,mg/dL,numeric
+1998-01-29T09:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf4d58be-29e7-0e0e-400e-dab8dd95423a,vital-signs,39156-5,Body mass index (BMI) [Ratio],25.2,kg/m2,numeric
+1998-01-29T09:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf4d58be-29e7-0e0e-400e-dab8dd95423a,vital-signs,8480-6,Systolic Blood Pressure,142.9,mm[Hg],numeric
+1998-01-29T09:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf4d58be-29e7-0e0e-400e-dab8dd95423a,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.3,%,numeric
+1998-01-29T09:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,cf4d58be-29e7-0e0e-400e-dab8dd95423a,vital-signs,8867-4,Heart rate,65.8,/min,numeric
+2020-01-08T13:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,b7353b98-a992-2dd5-a8c3-55ae8066731f,vital-signs,39156-5,Body mass index (BMI) [Ratio],20.8,kg/m2,numeric
+2020-01-08T13:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,b7353b98-a992-2dd5-a8c3-55ae8066731f,vital-signs,8462-4,Diastolic Blood Pressure,78.1,mm[Hg],numeric
+2020-01-08T13:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,b7353b98-a992-2dd5-a8c3-55ae8066731f,vital-signs,8480-6,Systolic Blood Pressure,131.9,mm[Hg],numeric
+2020-01-08T13:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,b7353b98-a992-2dd5-a8c3-55ae8066731f,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.7,%,numeric
+2020-01-08T13:00:00Z,60e011eb-c8ca-3123-cbcc-66719bc6d727,b7353b98-a992-2dd5-a8c3-55ae8066731f,vital-signs,8302-2,Body Height,158.4,cm,numeric
+2007-03-07T16:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,15c167d4-666f-afe7-d770-42605bf3c7a1,vital-signs,8462-4,Diastolic Blood Pressure,92.0,mm[Hg],numeric
+2007-03-07T16:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,15c167d4-666f-afe7-d770-42605bf3c7a1,vital-signs,8480-6,Systolic Blood Pressure,144.8,mm[Hg],numeric
+2007-03-07T16:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,15c167d4-666f-afe7-d770-42605bf3c7a1,vital-signs,39156-5,Body mass index (BMI) [Ratio],28.5,kg/m2,numeric
+2007-03-07T16:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,15c167d4-666f-afe7-d770-42605bf3c7a1,vital-signs,2339-0,Glucose [Mass/volume] in Blood,155.5,mg/dL,numeric
+2007-03-07T16:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,15c167d4-666f-afe7-d770-42605bf3c7a1,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.9,%,numeric
+2007-12-29T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,58bc65d2-496b-194b-b141-0cba5d003e38,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.9,%,numeric
+2007-12-29T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,58bc65d2-496b-194b-b141-0cba5d003e38,vital-signs,8302-2,Body Height,172.8,cm,numeric
+2007-12-29T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,58bc65d2-496b-194b-b141-0cba5d003e38,vital-signs,8867-4,Heart rate,86.5,/min,numeric
+2007-12-29T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,58bc65d2-496b-194b-b141-0cba5d003e38,vital-signs,29463-7,Body Weight,95.1,kg,numeric
+2013-06-14T11:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,c38671b6-c16b-224c-6eb1-9d944910c376,vital-signs,8462-4,Diastolic Blood Pressure,97.5,mm[Hg],numeric
+2013-06-14T11:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,c38671b6-c16b-224c-6eb1-9d944910c376,vital-signs,8867-4,Heart rate,57.6,/min,numeric
+2013-06-14T11:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,c38671b6-c16b-224c-6eb1-9d944910c376,vital-signs,29463-7,Body Weight,69.1,kg,numeric
+2015-04-24T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,e4b2a62a-b4dc-0ea3-c82b-9142a953d1ff,vital-signs,8867-4,Heart rate,95.6,/min,numeric
+2015-04-24T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,e4b2a62a-b4dc-0ea3-c82b-9142a953d1ff,vital-signs,8302-2,Body Height,184.4,cm,numeric
+2015-04-24T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,e4b2a62a-b4dc-0ea3-c82b-9142a953d1ff,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,210.7,mg/dL,numeric
+2015-04-24T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,e4b2a62a-b4dc-0ea3-c82b-9142a953d1ff,vital-signs,39156-5,Body mass index (BMI) [Ratio],34.5,kg/m2,numeric
+2015-04-24T09:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,e4b2a62a-b4dc-0ea3-c82b-9142a953d1ff,vital-signs,8480-6,Systolic Blood Pressure,140.1,mm[Hg],numeric
+2016-06-22T15:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,83acfa60-29fb-0d62-eea7-f7dfcecf282a,vital-signs,39156-5,Body mass index (BMI) [Ratio],24.6,kg/m2,numeric
+2016-06-22T15:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,83acfa60-29fb-0d62-eea7-f7dfcecf282a,vital-signs,8462-4,Diastolic Blood Pressure,99.5,mm[Hg],numeric
+2016-06-22T15:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,83acfa60-29fb-0d62-eea7-f7dfcecf282a,vital-signs,2339-0,Glucose [Mass/volume] in Blood,145.3,mg/dL,numeric
+2016-06-22T15:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,83acfa60-29fb-0d62-eea7-f7dfcecf282a,vital-signs,8302-2,Body Height,170.7,cm,numeric
+2017-10-11T10:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,2b3c7f53-334c-f8df-e87d-72af64425cc3,vital-signs,29463-7,Body Weight,83.7,kg,numeric
+2017-10-11T10:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,2b3c7f53-334c-f8df-e87d-72af64425cc3,vital-signs,2339-0,Glucose [Mass/volume] in Blood,95.3,mg/dL,numeric
+2017-10-11T10:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,2b3c7f53-334c-f8df-e87d-72af64425cc3,vital-signs,8462-4,Diastolic Blood Pressure,97.1,mm[Hg],numeric
+2017-10-11T10:00:00Z,eed7c61c-17d8-a217-99eb-8ae44eb625bb,2b3c7f53-334c-f8df-e87d-72af64425cc3,vital-signs,8867-4,Heart rate,98.6,/min,numeric
+1957-11-29T12:00:00Z,8c90d55a-843d-936e-4676-0384e4c32c2f,24041df2-8873-e341-bbf7-2cdd1f49f2ca,vital-signs,8867-4,Heart rate,60.3,/min,numeric
+1957-11-29T12:00:00Z,8c90d55a-843d-936e-4676-0384e4c32c2f,24041df2-8873-e341-bbf7-2cdd1f49f2ca,vital-signs,8462-4,Diastolic Blood Pressure,86.3,mm[Hg],numeric
+1957-11-29T12:00:00Z,8c90d55a-843d-936e-4676-0384e4c32c2f,24041df2-8873-e341-bbf7-2cdd1f49f2ca,vital-signs,39156-5,Body mass index (BMI) [Ratio],21.4,kg/m2,numeric
+1957-11-29T12:00:00Z,8c90d55a-843d-936e-4676-0384e4c32c2f,24041df2-8873-e341-bbf7-2cdd1f49f2ca,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,207.4,mg/dL,numeric
+1957-11-29T12:00:00Z,8c90d55a-843d-936e-4676-0384e4c32c2f,24041df2-8873-e341-bbf7-2cdd1f49f2ca,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.2,%,numeric
+2007-09-25T13:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,21842951-69e7-b48d-10f1-0fd1cdac75e2,vital-signs,8480-6,Systolic Blood Pressure,103.1,mm[Hg],numeric
+2007-09-25T13:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,21842951-69e7-b48d-10f1-0fd1cdac75e2,vital-signs,8462-4,Diastolic Blood Pressure,91.8,mm[Hg],numeric
+2007-09-25T13:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,21842951-69e7-b48d-10f1-0fd1cdac75e2,vital-signs,8302-2,Body Height,176.1,cm,numeric
+2008-08-05T09:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2c16c7d3-35da-0fd9-5e24-504016802870,vital-signs,2339-0,Glucose [Mass/volume] in Blood,76.3,mg/dL,numeric
+2008-08-05T09:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2c16c7d3-35da-0fd9-5e24-504016802870,vital-signs,29463-7,Body Weight,80.8,kg,numeric
+2008-08-05T09:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2c16c7d3-35da-0fd9-5e24-504016802870,vital-signs,8302-2,Body Height,159.6,cm,numeric
+2008-08-05T09:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2c16c7d3-35da-0fd9-5e24-504016802870,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.1,%,numeric
+2008-08-05T09:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2c16c7d3-35da-0fd9-5e24-504016802870,vital-signs,8480-6,Systolic Blood Pressure,100.8,mm[Hg],numeric
+2011-09-18T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,dc18c752-5405-4ecf-1284-992fdd1afb4a,vital-signs,8480-6,Systolic Blood Pressure,156.4,mm[Hg],numeric
+2011-09-18T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,dc18c752-5405-4ecf-1284-992fdd1afb4a,vital-signs,2339-0,Glucose [Mass/volume] in Blood,155.0,mg/dL,numeric
+2011-09-18T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,dc18c752-5405-4ecf-1284-992fdd1afb4a,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,172.9,mg/dL,numeric
+2011-09-18T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,dc18c752-5405-4ecf-1284-992fdd1afb4a,vital-signs,29463-7,Body Weight,93.2,kg,numeric
+2011-09-18T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,dc18c752-5405-4ecf-1284-992fdd1afb4a,vital-signs,8867-4,Heart rate,65.5,/min,numeric
+2011-09-18T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,dc18c752-5405-4ecf-1284-992fdd1afb4a,vital-signs,8302-2,Body Height,169.3,cm,numeric
+2017-04-09T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,d33a5f7d-2587-7cb8-350d-39f4128e7782,vital-signs,8867-4,Heart rate,94.4,/min,numeric
+2017-04-09T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,d33a5f7d-2587-7cb8-350d-39f4128e7782,vital-signs,39156-5,Body mass index (BMI) [Ratio],22.9,kg/m2,numeric
+2017-04-09T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,d33a5f7d-2587-7cb8-350d-39f4128e7782,vital-signs,8480-6,Systolic Blood Pressure,136.5,mm[Hg],numeric
+2017-04-09T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,d33a5f7d-2587-7cb8-350d-39f4128e7782,vital-signs,29463-7,Body Weight,107.6,kg,numeric
+2017-04-09T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,d33a5f7d-2587-7cb8-350d-39f4128e7782,vital-signs,8302-2,Body Height,166.4,cm,numeric
+2017-04-09T08:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,d33a5f7d-2587-7cb8-350d-39f4128e7782,vital-signs,8462-4,Diastolic Blood Pressure,71.4,mm[Hg],numeric
+2020-09-12T16:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,016fe28f-9fbf-dbde-b1f2-1baa10f10170,vital-signs,2339-0,Glucose [Mass/volume] in Blood,89.3,mg/dL,numeric
+2020-09-12T16:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,016fe28f-9fbf-dbde-b1f2-1baa10f10170,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,4.8,%,numeric
+2020-09-12T16:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,016fe28f-9fbf-dbde-b1f2-1baa10f10170,vital-signs,8302-2,Body Height,187.9,cm,numeric
+2021-08-31T15:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2833e1a0-ec8d-2f3b-1bcc-55d93ea122fd,vital-signs,8867-4,Heart rate,82.4,/min,numeric
+2021-08-31T15:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2833e1a0-ec8d-2f3b-1bcc-55d93ea122fd,vital-signs,29463-7,Body Weight,76.0,kg,numeric
+2021-08-31T15:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2833e1a0-ec8d-2f3b-1bcc-55d93ea122fd,vital-signs,8462-4,Diastolic Blood Pressure,87.2,mm[Hg],numeric
+2021-08-31T15:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2833e1a0-ec8d-2f3b-1bcc-55d93ea122fd,vital-signs,8480-6,Systolic Blood Pressure,108.7,mm[Hg],numeric
+2021-08-31T15:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2833e1a0-ec8d-2f3b-1bcc-55d93ea122fd,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.6,%,numeric
+2021-08-31T15:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,2833e1a0-ec8d-2f3b-1bcc-55d93ea122fd,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,188.2,mg/dL,numeric
+2025-05-15T11:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,003d5e46-492b-ccec-54cc-8771cea4b100,vital-signs,8302-2,Body Height,161.1,cm,numeric
+2025-05-15T11:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,003d5e46-492b-ccec-54cc-8771cea4b100,vital-signs,8867-4,Heart rate,91.0,/min,numeric
+2025-05-15T11:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,003d5e46-492b-ccec-54cc-8771cea4b100,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,248.6,mg/dL,numeric
+2025-05-15T11:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,003d5e46-492b-ccec-54cc-8771cea4b100,vital-signs,2339-0,Glucose [Mass/volume] in Blood,177.1,mg/dL,numeric
+2025-05-15T11:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,003d5e46-492b-ccec-54cc-8771cea4b100,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.0,%,numeric
+2025-05-15T11:00:00Z,6672f05d-15c7-b9e8-1e9f-77420107e0df,003d5e46-492b-ccec-54cc-8771cea4b100,vital-signs,29463-7,Body Weight,58.1,kg,numeric
+1977-07-16T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,1c4fb334-eeec-00f6-da0f-e8034fd6818e,vital-signs,39156-5,Body mass index (BMI) [Ratio],21.9,kg/m2,numeric
+1977-07-16T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,1c4fb334-eeec-00f6-da0f-e8034fd6818e,vital-signs,8462-4,Diastolic Blood Pressure,84.9,mm[Hg],numeric
+1977-07-16T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,1c4fb334-eeec-00f6-da0f-e8034fd6818e,vital-signs,29463-7,Body Weight,50.6,kg,numeric
+1977-07-16T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,1c4fb334-eeec-00f6-da0f-e8034fd6818e,vital-signs,2339-0,Glucose [Mass/volume] in Blood,133.4,mg/dL,numeric
+1977-07-16T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,1c4fb334-eeec-00f6-da0f-e8034fd6818e,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.3,%,numeric
+1977-07-16T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,1c4fb334-eeec-00f6-da0f-e8034fd6818e,vital-signs,8867-4,Heart rate,77.7,/min,numeric
+1979-05-06T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,be69fb21-7931-6be7-5f86-772e2c95fe30,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,214.1,mg/dL,numeric
+1979-05-06T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,be69fb21-7931-6be7-5f86-772e2c95fe30,vital-signs,8302-2,Body Height,167.8,cm,numeric
+1979-05-06T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,be69fb21-7931-6be7-5f86-772e2c95fe30,vital-signs,8480-6,Systolic Blood Pressure,120.6,mm[Hg],numeric
+1979-05-06T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,be69fb21-7931-6be7-5f86-772e2c95fe30,vital-signs,29463-7,Body Weight,80.8,kg,numeric
+1979-05-06T09:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,be69fb21-7931-6be7-5f86-772e2c95fe30,vital-signs,8462-4,Diastolic Blood Pressure,65.2,mm[Hg],numeric
+2004-02-12T13:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,24e6c201-2955-7af8-cd71-4bcb5dd1aee5,vital-signs,2339-0,Glucose [Mass/volume] in Blood,122.6,mg/dL,numeric
+2004-02-12T13:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,24e6c201-2955-7af8-cd71-4bcb5dd1aee5,vital-signs,8462-4,Diastolic Blood Pressure,96.1,mm[Hg],numeric
+2004-02-12T13:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,24e6c201-2955-7af8-cd71-4bcb5dd1aee5,vital-signs,8867-4,Heart rate,71.0,/min,numeric
+2004-02-12T13:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,24e6c201-2955-7af8-cd71-4bcb5dd1aee5,vital-signs,8302-2,Body Height,178.0,cm,numeric
+2004-02-12T13:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,24e6c201-2955-7af8-cd71-4bcb5dd1aee5,vital-signs,29463-7,Body Weight,81.1,kg,numeric
+2004-02-12T13:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,24e6c201-2955-7af8-cd71-4bcb5dd1aee5,vital-signs,8480-6,Systolic Blood Pressure,135.4,mm[Hg],numeric
+2018-11-06T08:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,7a3ea74b-6e0d-9521-1ebe-296edc570e9d,vital-signs,8462-4,Diastolic Blood Pressure,73.7,mm[Hg],numeric
+2018-11-06T08:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,7a3ea74b-6e0d-9521-1ebe-296edc570e9d,vital-signs,29463-7,Body Weight,51.9,kg,numeric
+2018-11-06T08:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,7a3ea74b-6e0d-9521-1ebe-296edc570e9d,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,9.0,%,numeric
+2018-11-06T08:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,7a3ea74b-6e0d-9521-1ebe-296edc570e9d,vital-signs,8867-4,Heart rate,64.3,/min,numeric
+2018-11-06T08:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,7a3ea74b-6e0d-9521-1ebe-296edc570e9d,vital-signs,8480-6,Systolic Blood Pressure,100.5,mm[Hg],numeric
+2018-11-06T08:00:00Z,fa3486d4-0918-d5fd-cce5-beb8981adcdb,7a3ea74b-6e0d-9521-1ebe-296edc570e9d,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,141.6,mg/dL,numeric
+1949-06-30T14:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,8b6fc8d0-cf85-d960-707d-45138675084a,vital-signs,29463-7,Body Weight,69.7,kg,numeric
+1949-06-30T14:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,8b6fc8d0-cf85-d960-707d-45138675084a,vital-signs,8462-4,Diastolic Blood Pressure,90.8,mm[Hg],numeric
+1949-06-30T14:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,8b6fc8d0-cf85-d960-707d-45138675084a,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,205.3,mg/dL,numeric
+1949-06-30T14:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,8b6fc8d0-cf85-d960-707d-45138675084a,vital-signs,8302-2,Body Height,155.3,cm,numeric
+1960-04-24T16:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,406fd921-3851-0ad5-821b-350ad4636ad7,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,231.1,mg/dL,numeric
+1960-04-24T16:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,406fd921-3851-0ad5-821b-350ad4636ad7,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.6,%,numeric
+1960-04-24T16:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,406fd921-3851-0ad5-821b-350ad4636ad7,vital-signs,8462-4,Diastolic Blood Pressure,60.4,mm[Hg],numeric
+1969-04-23T16:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,e4f7538a-4ac9-9317-0d36-6224e2c5e22a,vital-signs,8867-4,Heart rate,85.1,/min,numeric
+1969-04-23T16:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,e4f7538a-4ac9-9317-0d36-6224e2c5e22a,vital-signs,2339-0,Glucose [Mass/volume] in Blood,74.1,mg/dL,numeric
+1969-04-23T16:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,e4f7538a-4ac9-9317-0d36-6224e2c5e22a,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.0,%,numeric
+1981-02-01T13:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,28ae572b-fe00-6b1a-797d-94cf201678e1,vital-signs,8462-4,Diastolic Blood Pressure,77.6,mm[Hg],numeric
+1981-02-01T13:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,28ae572b-fe00-6b1a-797d-94cf201678e1,vital-signs,2339-0,Glucose [Mass/volume] in Blood,172.5,mg/dL,numeric
+1981-02-01T13:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,28ae572b-fe00-6b1a-797d-94cf201678e1,vital-signs,8867-4,Heart rate,60.0,/min,numeric
+1985-08-28T08:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,3e36bb50-90df-7d52-3825-a8225a2afacd,vital-signs,8480-6,Systolic Blood Pressure,155.5,mm[Hg],numeric
+1985-08-28T08:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,3e36bb50-90df-7d52-3825-a8225a2afacd,vital-signs,8462-4,Diastolic Blood Pressure,68.6,mm[Hg],numeric
+1985-08-28T08:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,3e36bb50-90df-7d52-3825-a8225a2afacd,vital-signs,29463-7,Body Weight,81.8,kg,numeric
+1985-08-28T08:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,3e36bb50-90df-7d52-3825-a8225a2afacd,vital-signs,8302-2,Body Height,184.9,cm,numeric
+1985-08-28T08:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,3e36bb50-90df-7d52-3825-a8225a2afacd,vital-signs,8867-4,Heart rate,69.5,/min,numeric
+1993-08-07T13:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,ff6e5d97-b1c0-9d34-9570-8a89a11ec8e6,vital-signs,8867-4,Heart rate,67.9,/min,numeric
+1993-08-07T13:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,ff6e5d97-b1c0-9d34-9570-8a89a11ec8e6,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,204.4,mg/dL,numeric
+1993-08-07T13:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,ff6e5d97-b1c0-9d34-9570-8a89a11ec8e6,vital-signs,39156-5,Body mass index (BMI) [Ratio],30.8,kg/m2,numeric
+1993-08-07T13:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,ff6e5d97-b1c0-9d34-9570-8a89a11ec8e6,vital-signs,8462-4,Diastolic Blood Pressure,68.3,mm[Hg],numeric
+2012-04-13T10:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,94122626-bf6e-8c20-2563-72a51c332971,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.0,%,numeric
+2012-04-13T10:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,94122626-bf6e-8c20-2563-72a51c332971,vital-signs,2339-0,Glucose [Mass/volume] in Blood,141.3,mg/dL,numeric
+2012-04-13T10:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,94122626-bf6e-8c20-2563-72a51c332971,vital-signs,29463-7,Body Weight,95.6,kg,numeric
+2012-04-13T10:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,94122626-bf6e-8c20-2563-72a51c332971,vital-signs,39156-5,Body mass index (BMI) [Ratio],31.2,kg/m2,numeric
+2012-04-13T10:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,94122626-bf6e-8c20-2563-72a51c332971,vital-signs,8867-4,Heart rate,55.0,/min,numeric
+2025-02-20T11:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,54d2be99-0234-128f-2c35-c5e57260bf86,vital-signs,29463-7,Body Weight,53.1,kg,numeric
+2025-02-20T11:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,54d2be99-0234-128f-2c35-c5e57260bf86,vital-signs,8480-6,Systolic Blood Pressure,148.4,mm[Hg],numeric
+2025-02-20T11:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,54d2be99-0234-128f-2c35-c5e57260bf86,vital-signs,2339-0,Glucose [Mass/volume] in Blood,96.7,mg/dL,numeric
+2025-02-20T11:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,54d2be99-0234-128f-2c35-c5e57260bf86,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,146.5,mg/dL,numeric
+2025-02-20T11:00:00Z,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,54d2be99-0234-128f-2c35-c5e57260bf86,vital-signs,8302-2,Body Height,151.9,cm,numeric
+1945-06-12T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cf0c9f63-7629-9946-6da8-052dbd28434a,vital-signs,2339-0,Glucose [Mass/volume] in Blood,154.1,mg/dL,numeric
+1945-06-12T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cf0c9f63-7629-9946-6da8-052dbd28434a,vital-signs,29463-7,Body Weight,80.7,kg,numeric
+1945-06-12T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cf0c9f63-7629-9946-6da8-052dbd28434a,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,177.9,mg/dL,numeric
+1945-06-12T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cf0c9f63-7629-9946-6da8-052dbd28434a,vital-signs,8462-4,Diastolic Blood Pressure,73.3,mm[Hg],numeric
+1945-06-12T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cf0c9f63-7629-9946-6da8-052dbd28434a,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.8,%,numeric
+1948-08-29T14:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,498d3efe-e55e-a249-1d2a-3a6163b2b39d,vital-signs,29463-7,Body Weight,96.4,kg,numeric
+1948-08-29T14:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,498d3efe-e55e-a249-1d2a-3a6163b2b39d,vital-signs,8302-2,Body Height,182.2,cm,numeric
+1948-08-29T14:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,498d3efe-e55e-a249-1d2a-3a6163b2b39d,vital-signs,8867-4,Heart rate,97.9,/min,numeric
+1948-08-29T14:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,498d3efe-e55e-a249-1d2a-3a6163b2b39d,vital-signs,2339-0,Glucose [Mass/volume] in Blood,167.2,mg/dL,numeric
+1952-04-20T12:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,4d866195-9e52-27d2-1a3a-868dfdc736ba,vital-signs,8867-4,Heart rate,96.2,/min,numeric
+1952-04-20T12:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,4d866195-9e52-27d2-1a3a-868dfdc736ba,vital-signs,29463-7,Body Weight,71.0,kg,numeric
+1952-04-20T12:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,4d866195-9e52-27d2-1a3a-868dfdc736ba,vital-signs,8302-2,Body Height,163.0,cm,numeric
+1952-04-20T12:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,4d866195-9e52-27d2-1a3a-868dfdc736ba,vital-signs,2339-0,Glucose [Mass/volume] in Blood,123.7,mg/dL,numeric
+1956-04-29T13:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cc2c45a4-dbe7-50ce-0c89-19d286b1cc67,vital-signs,2339-0,Glucose [Mass/volume] in Blood,81.9,mg/dL,numeric
+1956-04-29T13:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cc2c45a4-dbe7-50ce-0c89-19d286b1cc67,vital-signs,8302-2,Body Height,170.4,cm,numeric
+1956-04-29T13:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cc2c45a4-dbe7-50ce-0c89-19d286b1cc67,vital-signs,8462-4,Diastolic Blood Pressure,86.7,mm[Hg],numeric
+1956-04-29T13:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cc2c45a4-dbe7-50ce-0c89-19d286b1cc67,vital-signs,29463-7,Body Weight,79.7,kg,numeric
+1956-04-29T13:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,cc2c45a4-dbe7-50ce-0c89-19d286b1cc67,vital-signs,8480-6,Systolic Blood Pressure,109.5,mm[Hg],numeric
+1957-04-24T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,674bb402-389f-83e0-20ec-fbde5505a8c6,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.3,%,numeric
+1957-04-24T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,674bb402-389f-83e0-20ec-fbde5505a8c6,vital-signs,2339-0,Glucose [Mass/volume] in Blood,163.2,mg/dL,numeric
+1957-04-24T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,674bb402-389f-83e0-20ec-fbde5505a8c6,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,179.0,mg/dL,numeric
+1957-04-24T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,674bb402-389f-83e0-20ec-fbde5505a8c6,vital-signs,8867-4,Heart rate,88.3,/min,numeric
+1967-03-27T16:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,2fe750e1-2e2e-2ba3-d516-85f2c1d4c388,vital-signs,8480-6,Systolic Blood Pressure,146.3,mm[Hg],numeric
+1967-03-27T16:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,2fe750e1-2e2e-2ba3-d516-85f2c1d4c388,vital-signs,8462-4,Diastolic Blood Pressure,98.2,mm[Hg],numeric
+1967-03-27T16:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,2fe750e1-2e2e-2ba3-d516-85f2c1d4c388,vital-signs,8302-2,Body Height,164.8,cm,numeric
+1967-03-27T16:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,2fe750e1-2e2e-2ba3-d516-85f2c1d4c388,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.1,%,numeric
+1970-02-25T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,e2fd3681-a1c5-c199-8c88-af6444f2ed1e,vital-signs,8302-2,Body Height,154.0,cm,numeric
+1970-02-25T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,e2fd3681-a1c5-c199-8c88-af6444f2ed1e,vital-signs,8462-4,Diastolic Blood Pressure,92.0,mm[Hg],numeric
+1970-02-25T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,e2fd3681-a1c5-c199-8c88-af6444f2ed1e,vital-signs,2339-0,Glucose [Mass/volume] in Blood,163.7,mg/dL,numeric
+1970-02-25T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,e2fd3681-a1c5-c199-8c88-af6444f2ed1e,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.4,%,numeric
+1970-02-25T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,e2fd3681-a1c5-c199-8c88-af6444f2ed1e,vital-signs,29463-7,Body Weight,99.1,kg,numeric
+1970-02-25T09:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,e2fd3681-a1c5-c199-8c88-af6444f2ed1e,vital-signs,39156-5,Body mass index (BMI) [Ratio],19.9,kg/m2,numeric
+1982-02-27T08:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,9b9dc38d-a229-99b1-7c5d-c9803d0ce94c,vital-signs,8480-6,Systolic Blood Pressure,108.5,mm[Hg],numeric
+1982-02-27T08:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,9b9dc38d-a229-99b1-7c5d-c9803d0ce94c,vital-signs,8302-2,Body Height,153.5,cm,numeric
+1982-02-27T08:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,9b9dc38d-a229-99b1-7c5d-c9803d0ce94c,vital-signs,39156-5,Body mass index (BMI) [Ratio],24.2,kg/m2,numeric
+1989-09-24T11:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,1f7ef2b4-3f69-9d9d-2886-1e48d0946db0,vital-signs,8867-4,Heart rate,88.7,/min,numeric
+1989-09-24T11:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,1f7ef2b4-3f69-9d9d-2886-1e48d0946db0,vital-signs,8462-4,Diastolic Blood Pressure,64.2,mm[Hg],numeric
+1989-09-24T11:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,1f7ef2b4-3f69-9d9d-2886-1e48d0946db0,vital-signs,2339-0,Glucose [Mass/volume] in Blood,130.9,mg/dL,numeric
+1989-09-24T11:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,1f7ef2b4-3f69-9d9d-2886-1e48d0946db0,vital-signs,8480-6,Systolic Blood Pressure,147.2,mm[Hg],numeric
+1989-09-24T11:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,1f7ef2b4-3f69-9d9d-2886-1e48d0946db0,vital-signs,39156-5,Body mass index (BMI) [Ratio],32.5,kg/m2,numeric
+1989-09-24T11:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,1f7ef2b4-3f69-9d9d-2886-1e48d0946db0,vital-signs,8302-2,Body Height,161.7,cm,numeric
+2009-09-25T08:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,9d6ddddf-845e-f4a7-d4e8-b9d3ffda1783,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,9.1,%,numeric
+2009-09-25T08:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,9d6ddddf-845e-f4a7-d4e8-b9d3ffda1783,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,231.2,mg/dL,numeric
+2009-09-25T08:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,9d6ddddf-845e-f4a7-d4e8-b9d3ffda1783,vital-signs,8302-2,Body Height,162.8,cm,numeric
+2009-09-25T08:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,9d6ddddf-845e-f4a7-d4e8-b9d3ffda1783,vital-signs,2339-0,Glucose [Mass/volume] in Blood,101.8,mg/dL,numeric
+2017-03-14T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,aa91fc6c-5d7a-5fd3-994c-ca1206a6865c,vital-signs,8302-2,Body Height,168.0,cm,numeric
+2017-03-14T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,aa91fc6c-5d7a-5fd3-994c-ca1206a6865c,vital-signs,39156-5,Body mass index (BMI) [Ratio],28.9,kg/m2,numeric
+2017-03-14T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,aa91fc6c-5d7a-5fd3-994c-ca1206a6865c,vital-signs,2339-0,Glucose [Mass/volume] in Blood,121.2,mg/dL,numeric
+2017-03-14T10:00:00Z,71753a08-3a73-c0e6-3896-847c07e0eb85,aa91fc6c-5d7a-5fd3-994c-ca1206a6865c,vital-signs,8867-4,Heart rate,95.1,/min,numeric
+2004-07-19T15:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,vital-signs,8462-4,Diastolic Blood Pressure,88.6,mm[Hg],numeric
+2004-07-19T15:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,vital-signs,29463-7,Body Weight,50.2,kg,numeric
+2004-07-19T15:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,vital-signs,2339-0,Glucose [Mass/volume] in Blood,145.7,mg/dL,numeric
+2004-07-19T15:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,vital-signs,8302-2,Body Height,157.9,cm,numeric
+2004-07-19T15:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,194.9,mg/dL,numeric
+2004-07-19T15:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,vital-signs,8867-4,Heart rate,91.4,/min,numeric
+2004-11-25T16:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,ecf2f88f-d52d-6a29-b179-2a7b46e147d8,vital-signs,29463-7,Body Weight,51.7,kg,numeric
+2004-11-25T16:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,ecf2f88f-d52d-6a29-b179-2a7b46e147d8,vital-signs,8480-6,Systolic Blood Pressure,154.3,mm[Hg],numeric
+2004-11-25T16:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,ecf2f88f-d52d-6a29-b179-2a7b46e147d8,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,220.6,mg/dL,numeric
+2004-11-25T16:00:00Z,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,ecf2f88f-d52d-6a29-b179-2a7b46e147d8,vital-signs,8867-4,Heart rate,94.7,/min,numeric
+2017-06-21T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,99125eb9-354c-a61f-c83e-7523884bd5a6,vital-signs,8302-2,Body Height,163.3,cm,numeric
+2017-06-21T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,99125eb9-354c-a61f-c83e-7523884bd5a6,vital-signs,8867-4,Heart rate,90.0,/min,numeric
+2017-06-21T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,99125eb9-354c-a61f-c83e-7523884bd5a6,vital-signs,2339-0,Glucose [Mass/volume] in Blood,73.5,mg/dL,numeric
+2021-02-06T16:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,da21898f-dec6-6e37-4bb7-f2a281502a19,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,163.4,mg/dL,numeric
+2021-02-06T16:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,da21898f-dec6-6e37-4bb7-f2a281502a19,vital-signs,8302-2,Body Height,161.0,cm,numeric
+2021-02-06T16:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,da21898f-dec6-6e37-4bb7-f2a281502a19,vital-signs,29463-7,Body Weight,51.5,kg,numeric
+2021-02-06T16:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,da21898f-dec6-6e37-4bb7-f2a281502a19,vital-signs,8867-4,Heart rate,90.9,/min,numeric
+2021-03-09T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,86ce41e7-d60d-cab9-e383-dd979bda987e,vital-signs,8867-4,Heart rate,69.1,/min,numeric
+2021-03-09T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,86ce41e7-d60d-cab9-e383-dd979bda987e,vital-signs,39156-5,Body mass index (BMI) [Ratio],30.2,kg/m2,numeric
+2021-03-09T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,86ce41e7-d60d-cab9-e383-dd979bda987e,vital-signs,2339-0,Glucose [Mass/volume] in Blood,125.7,mg/dL,numeric
+2021-03-09T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,86ce41e7-d60d-cab9-e383-dd979bda987e,vital-signs,8302-2,Body Height,155.8,cm,numeric
+2021-03-09T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,86ce41e7-d60d-cab9-e383-dd979bda987e,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,137.5,mg/dL,numeric
+2021-03-09T10:00:00Z,97a49c73-7981-820a-9b7f-6b3c434ab313,86ce41e7-d60d-cab9-e383-dd979bda987e,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.3,%,numeric
+2005-06-10T14:00:00Z,dd241506-ed3c-29b8-7961-ef6456c3fbad,b106d7a4-4406-3464-af2d-035613f2b210,vital-signs,8867-4,Heart rate,69.0,/min,numeric
+2005-06-10T14:00:00Z,dd241506-ed3c-29b8-7961-ef6456c3fbad,b106d7a4-4406-3464-af2d-035613f2b210,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,198.0,mg/dL,numeric
+2005-06-10T14:00:00Z,dd241506-ed3c-29b8-7961-ef6456c3fbad,b106d7a4-4406-3464-af2d-035613f2b210,vital-signs,8462-4,Diastolic Blood Pressure,71.4,mm[Hg],numeric
+2005-06-10T14:00:00Z,dd241506-ed3c-29b8-7961-ef6456c3fbad,b106d7a4-4406-3464-af2d-035613f2b210,vital-signs,39156-5,Body mass index (BMI) [Ratio],23.6,kg/m2,numeric
+2005-06-10T14:00:00Z,dd241506-ed3c-29b8-7961-ef6456c3fbad,b106d7a4-4406-3464-af2d-035613f2b210,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.8,%,numeric
+2002-09-30T15:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,16c19985-5427-f9f0-3611-6dbac3d16cf8,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,251.7,mg/dL,numeric
+2002-09-30T15:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,16c19985-5427-f9f0-3611-6dbac3d16cf8,vital-signs,39156-5,Body mass index (BMI) [Ratio],30.3,kg/m2,numeric
+2002-09-30T15:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,16c19985-5427-f9f0-3611-6dbac3d16cf8,vital-signs,8302-2,Body Height,159.1,cm,numeric
+2002-09-30T15:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,16c19985-5427-f9f0-3611-6dbac3d16cf8,vital-signs,8867-4,Heart rate,64.5,/min,numeric
+2002-09-30T15:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,16c19985-5427-f9f0-3611-6dbac3d16cf8,vital-signs,2339-0,Glucose [Mass/volume] in Blood,93.3,mg/dL,numeric
+2024-08-28T08:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,25dd89ee-3211-e0be-a193-09917e732c49,vital-signs,39156-5,Body mass index (BMI) [Ratio],22.0,kg/m2,numeric
+2024-08-28T08:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,25dd89ee-3211-e0be-a193-09917e732c49,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,234.6,mg/dL,numeric
+2024-08-28T08:00:00Z,4a62c972-6a76-b340-c1f1-f22f02444f93,25dd89ee-3211-e0be-a193-09917e732c49,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.3,%,numeric
+1984-05-24T16:00:00Z,76345358-d233-a081-9288-6fddac584d88,a34c58b4-c8f3-512d-5b9b-a80dbd6d3fa5,vital-signs,8480-6,Systolic Blood Pressure,131.6,mm[Hg],numeric
+1984-05-24T16:00:00Z,76345358-d233-a081-9288-6fddac584d88,a34c58b4-c8f3-512d-5b9b-a80dbd6d3fa5,vital-signs,8302-2,Body Height,154.7,cm,numeric
+1984-05-24T16:00:00Z,76345358-d233-a081-9288-6fddac584d88,a34c58b4-c8f3-512d-5b9b-a80dbd6d3fa5,vital-signs,8867-4,Heart rate,57.9,/min,numeric
+1984-05-24T16:00:00Z,76345358-d233-a081-9288-6fddac584d88,a34c58b4-c8f3-512d-5b9b-a80dbd6d3fa5,vital-signs,39156-5,Body mass index (BMI) [Ratio],37.1,kg/m2,numeric
+1984-05-24T16:00:00Z,76345358-d233-a081-9288-6fddac584d88,a34c58b4-c8f3-512d-5b9b-a80dbd6d3fa5,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,188.3,mg/dL,numeric
+1997-09-30T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,c2bf41a6-c5c0-01a9-60c2-9f7cd35c9025,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.7,%,numeric
+1997-09-30T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,c2bf41a6-c5c0-01a9-60c2-9f7cd35c9025,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,207.4,mg/dL,numeric
+1997-09-30T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,c2bf41a6-c5c0-01a9-60c2-9f7cd35c9025,vital-signs,2339-0,Glucose [Mass/volume] in Blood,148.7,mg/dL,numeric
+2004-08-05T14:00:00Z,76345358-d233-a081-9288-6fddac584d88,6f2fe306-9361-a713-55a3-9445c87468a5,vital-signs,2339-0,Glucose [Mass/volume] in Blood,76.1,mg/dL,numeric
+2004-08-05T14:00:00Z,76345358-d233-a081-9288-6fddac584d88,6f2fe306-9361-a713-55a3-9445c87468a5,vital-signs,8480-6,Systolic Blood Pressure,131.3,mm[Hg],numeric
+2004-08-05T14:00:00Z,76345358-d233-a081-9288-6fddac584d88,6f2fe306-9361-a713-55a3-9445c87468a5,vital-signs,8462-4,Diastolic Blood Pressure,75.6,mm[Hg],numeric
+2004-08-05T14:00:00Z,76345358-d233-a081-9288-6fddac584d88,6f2fe306-9361-a713-55a3-9445c87468a5,vital-signs,29463-7,Body Weight,53.9,kg,numeric
+2004-08-05T14:00:00Z,76345358-d233-a081-9288-6fddac584d88,6f2fe306-9361-a713-55a3-9445c87468a5,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,169.7,mg/dL,numeric
+2004-08-05T14:00:00Z,76345358-d233-a081-9288-6fddac584d88,6f2fe306-9361-a713-55a3-9445c87468a5,vital-signs,8302-2,Body Height,157.6,cm,numeric
+2008-05-03T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,f91512e6-aeaa-41af-2f1d-b231a81bb9db,vital-signs,29463-7,Body Weight,107.6,kg,numeric
+2008-05-03T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,f91512e6-aeaa-41af-2f1d-b231a81bb9db,vital-signs,8480-6,Systolic Blood Pressure,152.5,mm[Hg],numeric
+2008-05-03T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,f91512e6-aeaa-41af-2f1d-b231a81bb9db,vital-signs,2339-0,Glucose [Mass/volume] in Blood,153.8,mg/dL,numeric
+2008-05-03T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,f91512e6-aeaa-41af-2f1d-b231a81bb9db,vital-signs,8302-2,Body Height,186.1,cm,numeric
+2008-05-03T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,f91512e6-aeaa-41af-2f1d-b231a81bb9db,vital-signs,8867-4,Heart rate,98.1,/min,numeric
+2008-05-03T12:00:00Z,76345358-d233-a081-9288-6fddac584d88,f91512e6-aeaa-41af-2f1d-b231a81bb9db,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,140.6,mg/dL,numeric
+2009-05-21T10:00:00Z,76345358-d233-a081-9288-6fddac584d88,16cf421f-a645-5f26-a851-305d1507cbc5,vital-signs,8480-6,Systolic Blood Pressure,142.2,mm[Hg],numeric
+2009-05-21T10:00:00Z,76345358-d233-a081-9288-6fddac584d88,16cf421f-a645-5f26-a851-305d1507cbc5,vital-signs,2339-0,Glucose [Mass/volume] in Blood,158.0,mg/dL,numeric
+2009-05-21T10:00:00Z,76345358-d233-a081-9288-6fddac584d88,16cf421f-a645-5f26-a851-305d1507cbc5,vital-signs,8867-4,Heart rate,61.7,/min,numeric
+2012-01-16T15:00:00Z,76345358-d233-a081-9288-6fddac584d88,48edbb90-9652-4f57-f021-1fa5b38fea85,vital-signs,8462-4,Diastolic Blood Pressure,64.4,mm[Hg],numeric
+2012-01-16T15:00:00Z,76345358-d233-a081-9288-6fddac584d88,48edbb90-9652-4f57-f021-1fa5b38fea85,vital-signs,39156-5,Body mass index (BMI) [Ratio],32.7,kg/m2,numeric
+2012-01-16T15:00:00Z,76345358-d233-a081-9288-6fddac584d88,48edbb90-9652-4f57-f021-1fa5b38fea85,vital-signs,8867-4,Heart rate,75.4,/min,numeric
+2012-01-16T15:00:00Z,76345358-d233-a081-9288-6fddac584d88,48edbb90-9652-4f57-f021-1fa5b38fea85,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.6,%,numeric
+2012-01-16T15:00:00Z,76345358-d233-a081-9288-6fddac584d88,48edbb90-9652-4f57-f021-1fa5b38fea85,vital-signs,8302-2,Body Height,156.9,cm,numeric
+2012-01-16T15:00:00Z,76345358-d233-a081-9288-6fddac584d88,48edbb90-9652-4f57-f021-1fa5b38fea85,vital-signs,29463-7,Body Weight,102.1,kg,numeric
+1940-09-15T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,a1076c45-c681-2e99-cea6-3a25d9173883,vital-signs,29463-7,Body Weight,83.6,kg,numeric
+1940-09-15T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,a1076c45-c681-2e99-cea6-3a25d9173883,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,192.0,mg/dL,numeric
+1940-09-15T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,a1076c45-c681-2e99-cea6-3a25d9173883,vital-signs,8867-4,Heart rate,83.4,/min,numeric
+1940-09-15T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,a1076c45-c681-2e99-cea6-3a25d9173883,vital-signs,8480-6,Systolic Blood Pressure,142.4,mm[Hg],numeric
+1940-09-15T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,a1076c45-c681-2e99-cea6-3a25d9173883,vital-signs,8302-2,Body Height,187.7,cm,numeric
+1940-09-15T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,a1076c45-c681-2e99-cea6-3a25d9173883,vital-signs,39156-5,Body mass index (BMI) [Ratio],29.3,kg/m2,numeric
+1948-10-22T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,e31cde72-748c-c59c-9d48-604af674d1c2,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.6,%,numeric
+1948-10-22T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,e31cde72-748c-c59c-9d48-604af674d1c2,vital-signs,8462-4,Diastolic Blood Pressure,69.9,mm[Hg],numeric
+1948-10-22T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,e31cde72-748c-c59c-9d48-604af674d1c2,vital-signs,8480-6,Systolic Blood Pressure,151.5,mm[Hg],numeric
+1948-10-22T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,e31cde72-748c-c59c-9d48-604af674d1c2,vital-signs,39156-5,Body mass index (BMI) [Ratio],25.5,kg/m2,numeric
+1948-10-22T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,e31cde72-748c-c59c-9d48-604af674d1c2,vital-signs,8867-4,Heart rate,59.9,/min,numeric
+1948-10-22T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,e31cde72-748c-c59c-9d48-604af674d1c2,vital-signs,2339-0,Glucose [Mass/volume] in Blood,121.5,mg/dL,numeric
+1956-02-14T09:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,7676878a-1180-737b-5a4a-cad3569e8540,vital-signs,8867-4,Heart rate,70.4,/min,numeric
+1956-02-14T09:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,7676878a-1180-737b-5a4a-cad3569e8540,vital-signs,8462-4,Diastolic Blood Pressure,90.7,mm[Hg],numeric
+1956-02-14T09:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,7676878a-1180-737b-5a4a-cad3569e8540,vital-signs,8302-2,Body Height,167.6,cm,numeric
+1956-02-14T09:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,7676878a-1180-737b-5a4a-cad3569e8540,vital-signs,29463-7,Body Weight,91.7,kg,numeric
+1959-02-28T14:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,f636f842-b696-5f4f-b0b5-b9e9e71b2c73,vital-signs,2339-0,Glucose [Mass/volume] in Blood,71.4,mg/dL,numeric
+1959-02-28T14:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,f636f842-b696-5f4f-b0b5-b9e9e71b2c73,vital-signs,8867-4,Heart rate,73.5,/min,numeric
+1959-02-28T14:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,f636f842-b696-5f4f-b0b5-b9e9e71b2c73,vital-signs,8302-2,Body Height,179.2,cm,numeric
+1959-02-28T14:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,f636f842-b696-5f4f-b0b5-b9e9e71b2c73,vital-signs,8480-6,Systolic Blood Pressure,140.4,mm[Hg],numeric
+1966-04-16T15:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,44d162ba-3047-65ef-2937-5273e65dd4bd,vital-signs,29463-7,Body Weight,68.6,kg,numeric
+1966-04-16T15:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,44d162ba-3047-65ef-2937-5273e65dd4bd,vital-signs,8462-4,Diastolic Blood Pressure,86.3,mm[Hg],numeric
+1966-04-16T15:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,44d162ba-3047-65ef-2937-5273e65dd4bd,vital-signs,2339-0,Glucose [Mass/volume] in Blood,81.2,mg/dL,numeric
+1966-04-16T15:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,44d162ba-3047-65ef-2937-5273e65dd4bd,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,132.3,mg/dL,numeric
+1966-04-16T15:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,44d162ba-3047-65ef-2937-5273e65dd4bd,vital-signs,8302-2,Body Height,169.6,cm,numeric
+1966-04-16T15:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,44d162ba-3047-65ef-2937-5273e65dd4bd,vital-signs,8867-4,Heart rate,72.7,/min,numeric
+1969-12-29T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,0b1cfe6f-07e9-955d-e84e-5645d920015d,vital-signs,8480-6,Systolic Blood Pressure,124.2,mm[Hg],numeric
+1969-12-29T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,0b1cfe6f-07e9-955d-e84e-5645d920015d,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.5,%,numeric
+1969-12-29T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,0b1cfe6f-07e9-955d-e84e-5645d920015d,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,229.6,mg/dL,numeric
+1970-05-16T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,b99a6fc4-e138-f4be-1471-3a363d268b2a,vital-signs,8462-4,Diastolic Blood Pressure,64.7,mm[Hg],numeric
+1970-05-16T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,b99a6fc4-e138-f4be-1471-3a363d268b2a,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,196.7,mg/dL,numeric
+1970-05-16T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,b99a6fc4-e138-f4be-1471-3a363d268b2a,vital-signs,8302-2,Body Height,186.0,cm,numeric
+1974-09-22T13:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,98abea06-c326-0d13-5c3b-8eda4a26789b,vital-signs,8302-2,Body Height,176.7,cm,numeric
+1974-09-22T13:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,98abea06-c326-0d13-5c3b-8eda4a26789b,vital-signs,2339-0,Glucose [Mass/volume] in Blood,137.3,mg/dL,numeric
+1974-09-22T13:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,98abea06-c326-0d13-5c3b-8eda4a26789b,vital-signs,8462-4,Diastolic Blood Pressure,67.5,mm[Hg],numeric
+1976-05-05T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,9c7e9171-3d95-7d8a-3cb2-abfa1000587a,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.4,%,numeric
+1976-05-05T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,9c7e9171-3d95-7d8a-3cb2-abfa1000587a,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,259.3,mg/dL,numeric
+1976-05-05T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,9c7e9171-3d95-7d8a-3cb2-abfa1000587a,vital-signs,29463-7,Body Weight,106.7,kg,numeric
+1976-05-05T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,9c7e9171-3d95-7d8a-3cb2-abfa1000587a,vital-signs,8480-6,Systolic Blood Pressure,103.7,mm[Hg],numeric
+1976-05-05T12:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,9c7e9171-3d95-7d8a-3cb2-abfa1000587a,vital-signs,39156-5,Body mass index (BMI) [Ratio],33.9,kg/m2,numeric
+1986-07-28T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,6f655fd0-f8fe-1a69-1448-70537aacf9e8,vital-signs,8480-6,Systolic Blood Pressure,117.5,mm[Hg],numeric
+1986-07-28T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,6f655fd0-f8fe-1a69-1448-70537aacf9e8,vital-signs,8867-4,Heart rate,68.8,/min,numeric
+1986-07-28T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,6f655fd0-f8fe-1a69-1448-70537aacf9e8,vital-signs,39156-5,Body mass index (BMI) [Ratio],28.1,kg/m2,numeric
+1986-07-28T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,6f655fd0-f8fe-1a69-1448-70537aacf9e8,vital-signs,8462-4,Diastolic Blood Pressure,60.0,mm[Hg],numeric
+1986-07-28T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,6f655fd0-f8fe-1a69-1448-70537aacf9e8,vital-signs,29463-7,Body Weight,69.8,kg,numeric
+1989-07-23T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,82d99caa-dd79-0900-25af-7f6124d544a5,vital-signs,29463-7,Body Weight,64.7,kg,numeric
+1989-07-23T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,82d99caa-dd79-0900-25af-7f6124d544a5,vital-signs,8462-4,Diastolic Blood Pressure,65.9,mm[Hg],numeric
+1989-07-23T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,82d99caa-dd79-0900-25af-7f6124d544a5,vital-signs,8302-2,Body Height,157.0,cm,numeric
+1989-07-23T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,82d99caa-dd79-0900-25af-7f6124d544a5,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.0,%,numeric
+1989-07-23T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,82d99caa-dd79-0900-25af-7f6124d544a5,vital-signs,2339-0,Glucose [Mass/volume] in Blood,82.2,mg/dL,numeric
+1989-07-23T16:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,82d99caa-dd79-0900-25af-7f6124d544a5,vital-signs,39156-5,Body mass index (BMI) [Ratio],27.7,kg/m2,numeric
+2015-11-02T10:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,969f50e7-43b8-5aff-bf55-81f78395c8aa,vital-signs,8480-6,Systolic Blood Pressure,154.2,mm[Hg],numeric
+2015-11-02T10:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,969f50e7-43b8-5aff-bf55-81f78395c8aa,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,153.3,mg/dL,numeric
+2015-11-02T10:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,969f50e7-43b8-5aff-bf55-81f78395c8aa,vital-signs,39156-5,Body mass index (BMI) [Ratio],34.4,kg/m2,numeric
+2015-11-02T10:00:00Z,bfa369da-af49-1963-4c4b-77adc5df93c8,969f50e7-43b8-5aff-bf55-81f78395c8aa,vital-signs,8302-2,Body Height,160.7,cm,numeric
+1990-07-25T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,926f39ae-f2f7-2883-39a3-647a0e277afe,vital-signs,8480-6,Systolic Blood Pressure,148.7,mm[Hg],numeric
+1990-07-25T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,926f39ae-f2f7-2883-39a3-647a0e277afe,vital-signs,8462-4,Diastolic Blood Pressure,91.4,mm[Hg],numeric
+1990-07-25T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,926f39ae-f2f7-2883-39a3-647a0e277afe,vital-signs,8867-4,Heart rate,97.3,/min,numeric
+1990-07-25T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,926f39ae-f2f7-2883-39a3-647a0e277afe,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.9,%,numeric
+1992-04-28T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,6ecad4df-cf6b-24fd-3cd3-b1e568f3ec41,vital-signs,8462-4,Diastolic Blood Pressure,84.1,mm[Hg],numeric
+1992-04-28T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,6ecad4df-cf6b-24fd-3cd3-b1e568f3ec41,vital-signs,8480-6,Systolic Blood Pressure,146.6,mm[Hg],numeric
+1992-04-28T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,6ecad4df-cf6b-24fd-3cd3-b1e568f3ec41,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,233.3,mg/dL,numeric
+1992-04-28T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,6ecad4df-cf6b-24fd-3cd3-b1e568f3ec41,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.2,%,numeric
+1992-04-28T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,6ecad4df-cf6b-24fd-3cd3-b1e568f3ec41,vital-signs,29463-7,Body Weight,58.3,kg,numeric
+1996-04-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb6ea9dd-20a3-c115-c655-505da811075c,vital-signs,8480-6,Systolic Blood Pressure,144.9,mm[Hg],numeric
+1996-04-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb6ea9dd-20a3-c115-c655-505da811075c,vital-signs,29463-7,Body Weight,52.8,kg,numeric
+1996-04-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb6ea9dd-20a3-c115-c655-505da811075c,vital-signs,2339-0,Glucose [Mass/volume] in Blood,154.0,mg/dL,numeric
+1996-04-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb6ea9dd-20a3-c115-c655-505da811075c,vital-signs,39156-5,Body mass index (BMI) [Ratio],31.9,kg/m2,numeric
+1996-04-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb6ea9dd-20a3-c115-c655-505da811075c,vital-signs,8867-4,Heart rate,76.2,/min,numeric
+2004-09-08T08:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,d076a263-e4ec-e9ec-0622-80d6246c63cc,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,9.1,%,numeric
+2004-09-08T08:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,d076a263-e4ec-e9ec-0622-80d6246c63cc,vital-signs,29463-7,Body Weight,55.2,kg,numeric
+2004-09-08T08:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,d076a263-e4ec-e9ec-0622-80d6246c63cc,vital-signs,8462-4,Diastolic Blood Pressure,79.4,mm[Hg],numeric
+2004-09-08T08:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,d076a263-e4ec-e9ec-0622-80d6246c63cc,vital-signs,39156-5,Body mass index (BMI) [Ratio],31.4,kg/m2,numeric
+2004-09-08T08:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,d076a263-e4ec-e9ec-0622-80d6246c63cc,vital-signs,2339-0,Glucose [Mass/volume] in Blood,74.8,mg/dL,numeric
+2004-09-08T08:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,d076a263-e4ec-e9ec-0622-80d6246c63cc,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,251.0,mg/dL,numeric
+2008-01-28T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb98173e-ef0d-5857-4176-0d2f2b93f181,vital-signs,29463-7,Body Weight,55.3,kg,numeric
+2008-01-28T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb98173e-ef0d-5857-4176-0d2f2b93f181,vital-signs,8867-4,Heart rate,65.8,/min,numeric
+2008-01-28T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,cb98173e-ef0d-5857-4176-0d2f2b93f181,vital-signs,8302-2,Body Height,175.7,cm,numeric
+2013-03-27T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,501c76f4-9fdc-91e1-e6d6-b83028def99d,vital-signs,8480-6,Systolic Blood Pressure,157.1,mm[Hg],numeric
+2013-03-27T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,501c76f4-9fdc-91e1-e6d6-b83028def99d,vital-signs,8462-4,Diastolic Blood Pressure,99.4,mm[Hg],numeric
+2013-03-27T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,501c76f4-9fdc-91e1-e6d6-b83028def99d,vital-signs,2339-0,Glucose [Mass/volume] in Blood,73.4,mg/dL,numeric
+2013-03-27T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,501c76f4-9fdc-91e1-e6d6-b83028def99d,vital-signs,39156-5,Body mass index (BMI) [Ratio],20.8,kg/m2,numeric
+2013-03-27T14:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,501c76f4-9fdc-91e1-e6d6-b83028def99d,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.2,%,numeric
+2014-12-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,38735873-08ba-6d9c-9fa9-b02d7a57423b,vital-signs,8462-4,Diastolic Blood Pressure,82.9,mm[Hg],numeric
+2014-12-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,38735873-08ba-6d9c-9fa9-b02d7a57423b,vital-signs,29463-7,Body Weight,61.2,kg,numeric
+2014-12-24T11:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,38735873-08ba-6d9c-9fa9-b02d7a57423b,vital-signs,8867-4,Heart rate,85.3,/min,numeric
+2021-08-07T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,ea2b500b-ca00-4ac3-d34c-c457e9168f15,vital-signs,8867-4,Heart rate,66.1,/min,numeric
+2021-08-07T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,ea2b500b-ca00-4ac3-d34c-c457e9168f15,vital-signs,8480-6,Systolic Blood Pressure,129.5,mm[Hg],numeric
+2021-08-07T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,ea2b500b-ca00-4ac3-d34c-c457e9168f15,vital-signs,2339-0,Glucose [Mass/volume] in Blood,153.2,mg/dL,numeric
+2025-06-20T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,85cedf14-8c15-79f6-b7f5-ccf58b66785c,vital-signs,8462-4,Diastolic Blood Pressure,90.2,mm[Hg],numeric
+2025-06-20T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,85cedf14-8c15-79f6-b7f5-ccf58b66785c,vital-signs,8867-4,Heart rate,73.1,/min,numeric
+2025-06-20T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,85cedf14-8c15-79f6-b7f5-ccf58b66785c,vital-signs,8302-2,Body Height,186.9,cm,numeric
+2025-06-20T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,85cedf14-8c15-79f6-b7f5-ccf58b66785c,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.5,%,numeric
+2025-06-20T13:00:00Z,f223473a-fe17-5270-8628-5c520df06a09,85cedf14-8c15-79f6-b7f5-ccf58b66785c,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,220.8,mg/dL,numeric
+2011-11-30T12:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29fa158d-89c2-b124-35c0-0c822e003f34,vital-signs,8867-4,Heart rate,70.6,/min,numeric
+2011-11-30T12:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29fa158d-89c2-b124-35c0-0c822e003f34,vital-signs,8462-4,Diastolic Blood Pressure,65.7,mm[Hg],numeric
+2011-11-30T12:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29fa158d-89c2-b124-35c0-0c822e003f34,vital-signs,29463-7,Body Weight,102.8,kg,numeric
+2014-12-09T09:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29161e92-d2c6-96bd-6117-c01818cdc737,vital-signs,29463-7,Body Weight,108.9,kg,numeric
+2014-12-09T09:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29161e92-d2c6-96bd-6117-c01818cdc737,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.1,%,numeric
+2014-12-09T09:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29161e92-d2c6-96bd-6117-c01818cdc737,vital-signs,2339-0,Glucose [Mass/volume] in Blood,153.3,mg/dL,numeric
+2014-12-09T09:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29161e92-d2c6-96bd-6117-c01818cdc737,vital-signs,39156-5,Body mass index (BMI) [Ratio],22.6,kg/m2,numeric
+2014-12-09T09:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,29161e92-d2c6-96bd-6117-c01818cdc737,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,219.9,mg/dL,numeric
+2016-08-26T13:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,c1f4254b-3857-8b1f-1cf1-097640548a1b,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.9,%,numeric
+2016-08-26T13:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,c1f4254b-3857-8b1f-1cf1-097640548a1b,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,221.4,mg/dL,numeric
+2016-08-26T13:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,c1f4254b-3857-8b1f-1cf1-097640548a1b,vital-signs,8867-4,Heart rate,58.1,/min,numeric
+2016-08-26T13:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,c1f4254b-3857-8b1f-1cf1-097640548a1b,vital-signs,8462-4,Diastolic Blood Pressure,64.2,mm[Hg],numeric
+2023-05-01T10:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,bff5a924-af9d-3da5-bc0f-686fb3943adf,vital-signs,8462-4,Diastolic Blood Pressure,79.1,mm[Hg],numeric
+2023-05-01T10:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,bff5a924-af9d-3da5-bc0f-686fb3943adf,vital-signs,29463-7,Body Weight,72.7,kg,numeric
+2023-05-01T10:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,bff5a924-af9d-3da5-bc0f-686fb3943adf,vital-signs,8302-2,Body Height,185.9,cm,numeric
+2023-05-01T10:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,bff5a924-af9d-3da5-bc0f-686fb3943adf,vital-signs,8867-4,Heart rate,76.9,/min,numeric
+2023-05-01T10:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,bff5a924-af9d-3da5-bc0f-686fb3943adf,vital-signs,8480-6,Systolic Blood Pressure,109.8,mm[Hg],numeric
+2023-05-01T10:00:00Z,c1df817b-44cf-7a92-d3d0-4418661111cc,bff5a924-af9d-3da5-bc0f-686fb3943adf,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,251.3,mg/dL,numeric
+1987-05-07T10:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,86e70255-980a-3a0e-416e-2f5558db78e9,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,214.9,mg/dL,numeric
+1987-05-07T10:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,86e70255-980a-3a0e-416e-2f5558db78e9,vital-signs,39156-5,Body mass index (BMI) [Ratio],26.8,kg/m2,numeric
+1987-05-07T10:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,86e70255-980a-3a0e-416e-2f5558db78e9,vital-signs,29463-7,Body Weight,104.0,kg,numeric
+1989-10-25T09:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,dd74e4f2-12ba-dcc8-dfbe-6129b12eaece,vital-signs,29463-7,Body Weight,99.7,kg,numeric
+1989-10-25T09:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,dd74e4f2-12ba-dcc8-dfbe-6129b12eaece,vital-signs,8480-6,Systolic Blood Pressure,134.5,mm[Hg],numeric
+1989-10-25T09:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,dd74e4f2-12ba-dcc8-dfbe-6129b12eaece,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.3,%,numeric
+2024-01-19T16:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,73ebdf78-ab2c-fb02-6d49-9a3cd7543d69,vital-signs,8480-6,Systolic Blood Pressure,150.5,mm[Hg],numeric
+2024-01-19T16:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,73ebdf78-ab2c-fb02-6d49-9a3cd7543d69,vital-signs,2339-0,Glucose [Mass/volume] in Blood,160.8,mg/dL,numeric
+2024-01-19T16:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,73ebdf78-ab2c-fb02-6d49-9a3cd7543d69,vital-signs,8302-2,Body Height,152.3,cm,numeric
+2024-01-19T16:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,73ebdf78-ab2c-fb02-6d49-9a3cd7543d69,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.2,%,numeric
+2024-01-19T16:00:00Z,882940ed-7667-7f1e-9336-138646d66d06,73ebdf78-ab2c-fb02-6d49-9a3cd7543d69,vital-signs,39156-5,Body mass index (BMI) [Ratio],28.5,kg/m2,numeric
+2016-04-29T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,dc0ad8bb-6008-30ef-152d-ef33426b6c0c,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,4.5,%,numeric
+2016-04-29T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,dc0ad8bb-6008-30ef-152d-ef33426b6c0c,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,189.9,mg/dL,numeric
+2016-04-29T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,dc0ad8bb-6008-30ef-152d-ef33426b6c0c,vital-signs,29463-7,Body Weight,93.0,kg,numeric
+2016-04-29T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,dc0ad8bb-6008-30ef-152d-ef33426b6c0c,vital-signs,8462-4,Diastolic Blood Pressure,71.7,mm[Hg],numeric
+2016-04-29T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,dc0ad8bb-6008-30ef-152d-ef33426b6c0c,vital-signs,2339-0,Glucose [Mass/volume] in Blood,94.2,mg/dL,numeric
+2016-04-29T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,dc0ad8bb-6008-30ef-152d-ef33426b6c0c,vital-signs,39156-5,Body mass index (BMI) [Ratio],20.6,kg/m2,numeric
+2018-09-16T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,8e9edd45-8dad-87e8-05df-8f6d254c38f9,vital-signs,8867-4,Heart rate,93.3,/min,numeric
+2018-09-16T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,8e9edd45-8dad-87e8-05df-8f6d254c38f9,vital-signs,8462-4,Diastolic Blood Pressure,67.5,mm[Hg],numeric
+2018-09-16T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,8e9edd45-8dad-87e8-05df-8f6d254c38f9,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.6,%,numeric
+2018-09-16T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,8e9edd45-8dad-87e8-05df-8f6d254c38f9,vital-signs,29463-7,Body Weight,86.2,kg,numeric
+2018-09-16T15:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,8e9edd45-8dad-87e8-05df-8f6d254c38f9,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,225.5,mg/dL,numeric
+2022-05-29T14:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,a6cd63f2-ab73-ad29-50d3-cf21a7943a48,vital-signs,39156-5,Body mass index (BMI) [Ratio],31.0,kg/m2,numeric
+2022-05-29T14:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,a6cd63f2-ab73-ad29-50d3-cf21a7943a48,vital-signs,8867-4,Heart rate,93.0,/min,numeric
+2022-05-29T14:00:00Z,df6a865d-d74f-1853-7aed-eea1f08950f0,a6cd63f2-ab73-ad29-50d3-cf21a7943a48,vital-signs,8302-2,Body Height,169.1,cm,numeric
+2000-04-10T15:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,ba0b3438-d3f4-14f7-70e1-feefadb8f032,vital-signs,39156-5,Body mass index (BMI) [Ratio],18.2,kg/m2,numeric
+2000-04-10T15:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,ba0b3438-d3f4-14f7-70e1-feefadb8f032,vital-signs,29463-7,Body Weight,54.1,kg,numeric
+2000-04-10T15:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,ba0b3438-d3f4-14f7-70e1-feefadb8f032,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,215.9,mg/dL,numeric
+2002-02-19T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,31d8380d-196a-94f4-1543-f5b16e29cbae,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,169.7,mg/dL,numeric
+2002-02-19T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,31d8380d-196a-94f4-1543-f5b16e29cbae,vital-signs,8867-4,Heart rate,87.0,/min,numeric
+2002-02-19T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,31d8380d-196a-94f4-1543-f5b16e29cbae,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,9.2,%,numeric
+2002-02-26T09:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,926b6a77-1e36-eed5-c045-b533be5552ae,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,166.5,mg/dL,numeric
+2002-02-26T09:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,926b6a77-1e36-eed5-c045-b533be5552ae,vital-signs,8867-4,Heart rate,75.1,/min,numeric
+2002-02-26T09:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,926b6a77-1e36-eed5-c045-b533be5552ae,vital-signs,8302-2,Body Height,164.1,cm,numeric
+2002-02-26T09:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,926b6a77-1e36-eed5-c045-b533be5552ae,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.7,%,numeric
+2003-08-20T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,96c326e4-d261-83bd-ef12-e428f04d3346,vital-signs,29463-7,Body Weight,61.7,kg,numeric
+2003-08-20T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,96c326e4-d261-83bd-ef12-e428f04d3346,vital-signs,8462-4,Diastolic Blood Pressure,77.9,mm[Hg],numeric
+2003-08-20T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,96c326e4-d261-83bd-ef12-e428f04d3346,vital-signs,2339-0,Glucose [Mass/volume] in Blood,97.4,mg/dL,numeric
+2003-08-20T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,96c326e4-d261-83bd-ef12-e428f04d3346,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.0,%,numeric
+2003-08-20T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,96c326e4-d261-83bd-ef12-e428f04d3346,vital-signs,39156-5,Body mass index (BMI) [Ratio],29.0,kg/m2,numeric
+2003-08-20T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,96c326e4-d261-83bd-ef12-e428f04d3346,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,188.7,mg/dL,numeric
+2003-08-28T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,76798afb-d361-4314-66f7-77b074e5b956,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,157.2,mg/dL,numeric
+2003-08-28T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,76798afb-d361-4314-66f7-77b074e5b956,vital-signs,8867-4,Heart rate,87.0,/min,numeric
+2003-08-28T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,76798afb-d361-4314-66f7-77b074e5b956,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.4,%,numeric
+2003-09-12T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,12fdec77-9fd3-f24d-2a54-db3a72cdcacc,vital-signs,8302-2,Body Height,184.6,cm,numeric
+2003-09-12T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,12fdec77-9fd3-f24d-2a54-db3a72cdcacc,vital-signs,39156-5,Body mass index (BMI) [Ratio],22.6,kg/m2,numeric
+2003-09-12T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,12fdec77-9fd3-f24d-2a54-db3a72cdcacc,vital-signs,8462-4,Diastolic Blood Pressure,79.4,mm[Hg],numeric
+2003-09-12T14:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,12fdec77-9fd3-f24d-2a54-db3a72cdcacc,vital-signs,8867-4,Heart rate,58.4,/min,numeric
+2014-10-17T08:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,c57fe75b-91a2-76dd-c804-925f71ddbd61,vital-signs,8302-2,Body Height,159.2,cm,numeric
+2014-10-17T08:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,c57fe75b-91a2-76dd-c804-925f71ddbd61,vital-signs,8480-6,Systolic Blood Pressure,106.2,mm[Hg],numeric
+2014-10-17T08:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,c57fe75b-91a2-76dd-c804-925f71ddbd61,vital-signs,29463-7,Body Weight,103.1,kg,numeric
+2014-10-17T08:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,c57fe75b-91a2-76dd-c804-925f71ddbd61,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,162.9,mg/dL,numeric
+2014-10-17T08:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,c57fe75b-91a2-76dd-c804-925f71ddbd61,vital-signs,8867-4,Heart rate,69.8,/min,numeric
+2018-03-14T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,e8cff4dc-626b-f48a-918d-37e1fce513ca,vital-signs,8480-6,Systolic Blood Pressure,155.6,mm[Hg],numeric
+2018-03-14T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,e8cff4dc-626b-f48a-918d-37e1fce513ca,vital-signs,39156-5,Body mass index (BMI) [Ratio],22.1,kg/m2,numeric
+2018-03-14T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,e8cff4dc-626b-f48a-918d-37e1fce513ca,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,224.3,mg/dL,numeric
+2018-03-14T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,e8cff4dc-626b-f48a-918d-37e1fce513ca,vital-signs,8462-4,Diastolic Blood Pressure,71.9,mm[Hg],numeric
+2018-03-14T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,e8cff4dc-626b-f48a-918d-37e1fce513ca,vital-signs,8302-2,Body Height,164.5,cm,numeric
+2018-03-14T12:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,e8cff4dc-626b-f48a-918d-37e1fce513ca,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.4,%,numeric
+2022-03-18T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,bef51f98-40c5-d354-ed1f-928a3fc84410,vital-signs,2339-0,Glucose [Mass/volume] in Blood,115.7,mg/dL,numeric
+2022-03-18T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,bef51f98-40c5-d354-ed1f-928a3fc84410,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,7.5,%,numeric
+2022-03-18T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,bef51f98-40c5-d354-ed1f-928a3fc84410,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,243.5,mg/dL,numeric
+2022-03-18T10:00:00Z,dce9cb39-ffd7-fb81-24cb-4d60030ae27f,bef51f98-40c5-d354-ed1f-928a3fc84410,vital-signs,29463-7,Body Weight,94.7,kg,numeric
+2014-10-07T10:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,adede2b6-d57d-1f9a-0203-491e8d2a2cc6,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,181.4,mg/dL,numeric
+2014-10-07T10:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,adede2b6-d57d-1f9a-0203-491e8d2a2cc6,vital-signs,8302-2,Body Height,165.5,cm,numeric
+2014-10-07T10:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,adede2b6-d57d-1f9a-0203-491e8d2a2cc6,vital-signs,39156-5,Body mass index (BMI) [Ratio],18.3,kg/m2,numeric
+2014-10-07T10:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,adede2b6-d57d-1f9a-0203-491e8d2a2cc6,vital-signs,8480-6,Systolic Blood Pressure,102.3,mm[Hg],numeric
+2014-10-07T10:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,adede2b6-d57d-1f9a-0203-491e8d2a2cc6,vital-signs,8462-4,Diastolic Blood Pressure,85.7,mm[Hg],numeric
+2014-10-07T10:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,adede2b6-d57d-1f9a-0203-491e8d2a2cc6,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.8,%,numeric
+2019-12-13T09:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,74a6331e-86dc-7990-9d9e-eb1750ce75b8,vital-signs,2339-0,Glucose [Mass/volume] in Blood,112.4,mg/dL,numeric
+2019-12-13T09:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,74a6331e-86dc-7990-9d9e-eb1750ce75b8,vital-signs,8302-2,Body Height,161.6,cm,numeric
+2019-12-13T09:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,74a6331e-86dc-7990-9d9e-eb1750ce75b8,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,149.6,mg/dL,numeric
+2019-12-13T09:00:00Z,c569dcc0-cfab-4163-b2ef-e45894b5a47b,74a6331e-86dc-7990-9d9e-eb1750ce75b8,vital-signs,39156-5,Body mass index (BMI) [Ratio],19.1,kg/m2,numeric
+1979-01-20T14:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,c7ea541d-7ef6-00ec-2297-4c1ec8964efe,vital-signs,8480-6,Systolic Blood Pressure,109.8,mm[Hg],numeric
+1979-01-20T14:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,c7ea541d-7ef6-00ec-2297-4c1ec8964efe,vital-signs,8462-4,Diastolic Blood Pressure,62.2,mm[Hg],numeric
+1979-01-20T14:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,c7ea541d-7ef6-00ec-2297-4c1ec8964efe,vital-signs,39156-5,Body mass index (BMI) [Ratio],19.7,kg/m2,numeric
+2001-05-27T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,f02341d0-6c1a-3503-080f-a337fbf74865,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,154.2,mg/dL,numeric
+2001-05-27T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,f02341d0-6c1a-3503-080f-a337fbf74865,vital-signs,39156-5,Body mass index (BMI) [Ratio],28.6,kg/m2,numeric
+2001-05-27T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,f02341d0-6c1a-3503-080f-a337fbf74865,vital-signs,2339-0,Glucose [Mass/volume] in Blood,146.0,mg/dL,numeric
+2001-05-27T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,f02341d0-6c1a-3503-080f-a337fbf74865,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.7,%,numeric
+2001-05-27T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,f02341d0-6c1a-3503-080f-a337fbf74865,vital-signs,8480-6,Systolic Blood Pressure,115.9,mm[Hg],numeric
+2012-08-02T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,32760cce-fe7a-574e-5614-b6acbefb3060,vital-signs,29463-7,Body Weight,81.4,kg,numeric
+2012-08-02T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,32760cce-fe7a-574e-5614-b6acbefb3060,vital-signs,2339-0,Glucose [Mass/volume] in Blood,140.3,mg/dL,numeric
+2012-08-02T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,32760cce-fe7a-574e-5614-b6acbefb3060,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.6,%,numeric
+2012-08-02T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,32760cce-fe7a-574e-5614-b6acbefb3060,vital-signs,8462-4,Diastolic Blood Pressure,66.7,mm[Hg],numeric
+2012-08-02T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,32760cce-fe7a-574e-5614-b6acbefb3060,vital-signs,8480-6,Systolic Blood Pressure,142.2,mm[Hg],numeric
+2012-08-02T15:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,32760cce-fe7a-574e-5614-b6acbefb3060,vital-signs,8302-2,Body Height,187.8,cm,numeric
+2017-05-31T09:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,144f6885-cc20-94ad-1465-552c4f98af6c,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.9,%,numeric
+2017-05-31T09:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,144f6885-cc20-94ad-1465-552c4f98af6c,vital-signs,39156-5,Body mass index (BMI) [Ratio],24.1,kg/m2,numeric
+2017-05-31T09:00:00Z,052d494b-5020-21b1-50b1-657acffd0cb3,144f6885-cc20-94ad-1465-552c4f98af6c,vital-signs,8302-2,Body Height,176.1,cm,numeric
+2002-06-08T14:00:00Z,e01fcab9-2df4-f80f-5bad-91e683499e88,e30c9f80-f498-15d2-46bb-52c756a628e3,vital-signs,2339-0,Glucose [Mass/volume] in Blood,103.7,mg/dL,numeric
+2002-06-08T14:00:00Z,e01fcab9-2df4-f80f-5bad-91e683499e88,e30c9f80-f498-15d2-46bb-52c756a628e3,vital-signs,8480-6,Systolic Blood Pressure,111.6,mm[Hg],numeric
+2002-06-08T14:00:00Z,e01fcab9-2df4-f80f-5bad-91e683499e88,e30c9f80-f498-15d2-46bb-52c756a628e3,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,152.2,mg/dL,numeric
+2002-06-08T14:00:00Z,e01fcab9-2df4-f80f-5bad-91e683499e88,e30c9f80-f498-15d2-46bb-52c756a628e3,vital-signs,8867-4,Heart rate,93.6,/min,numeric
+1979-12-31T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,59dba301-66c8-c89e-05ca-735f54e1fadd,vital-signs,2339-0,Glucose [Mass/volume] in Blood,119.6,mg/dL,numeric
+1979-12-31T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,59dba301-66c8-c89e-05ca-735f54e1fadd,vital-signs,8867-4,Heart rate,68.5,/min,numeric
+1979-12-31T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,59dba301-66c8-c89e-05ca-735f54e1fadd,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,204.4,mg/dL,numeric
+1979-12-31T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,59dba301-66c8-c89e-05ca-735f54e1fadd,vital-signs,29463-7,Body Weight,55.6,kg,numeric
+1979-12-31T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,59dba301-66c8-c89e-05ca-735f54e1fadd,vital-signs,8480-6,Systolic Blood Pressure,149.5,mm[Hg],numeric
+1979-12-31T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,59dba301-66c8-c89e-05ca-735f54e1fadd,vital-signs,8302-2,Body Height,189.9,cm,numeric
+1982-11-22T08:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,3a87f23b-b383-fb19-fcd7-e6688f286759,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,158.1,mg/dL,numeric
+1982-11-22T08:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,3a87f23b-b383-fb19-fcd7-e6688f286759,vital-signs,8867-4,Heart rate,86.3,/min,numeric
+1982-11-22T08:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,3a87f23b-b383-fb19-fcd7-e6688f286759,vital-signs,39156-5,Body mass index (BMI) [Ratio],37.9,kg/m2,numeric
+1982-11-22T08:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,3a87f23b-b383-fb19-fcd7-e6688f286759,vital-signs,8462-4,Diastolic Blood Pressure,62.8,mm[Hg],numeric
+1982-11-22T08:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,3a87f23b-b383-fb19-fcd7-e6688f286759,vital-signs,29463-7,Body Weight,76.4,kg,numeric
+1982-11-22T08:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,3a87f23b-b383-fb19-fcd7-e6688f286759,vital-signs,2339-0,Glucose [Mass/volume] in Blood,178.1,mg/dL,numeric
+1991-03-08T15:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,6c1f70bd-2c89-404b-d7e9-bd9eba15db53,vital-signs,8302-2,Body Height,173.9,cm,numeric
+1991-03-08T15:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,6c1f70bd-2c89-404b-d7e9-bd9eba15db53,vital-signs,39156-5,Body mass index (BMI) [Ratio],25.8,kg/m2,numeric
+1991-03-08T15:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,6c1f70bd-2c89-404b-d7e9-bd9eba15db53,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,218.9,mg/dL,numeric
+1991-03-08T15:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,6c1f70bd-2c89-404b-d7e9-bd9eba15db53,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.1,%,numeric
+1991-03-08T15:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,6c1f70bd-2c89-404b-d7e9-bd9eba15db53,vital-signs,8867-4,Heart rate,78.8,/min,numeric
+1991-04-18T12:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,08e5d0e4-97f4-2135-ddf6-b84f72845c79,vital-signs,8302-2,Body Height,173.2,cm,numeric
+1991-04-18T12:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,08e5d0e4-97f4-2135-ddf6-b84f72845c79,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,4.7,%,numeric
+1991-04-18T12:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,08e5d0e4-97f4-2135-ddf6-b84f72845c79,vital-signs,2339-0,Glucose [Mass/volume] in Blood,131.5,mg/dL,numeric
+1991-04-18T12:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,08e5d0e4-97f4-2135-ddf6-b84f72845c79,vital-signs,8462-4,Diastolic Blood Pressure,76.6,mm[Hg],numeric
+1991-04-18T12:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,08e5d0e4-97f4-2135-ddf6-b84f72845c79,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,205.0,mg/dL,numeric
+1999-12-28T11:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,8b49b247-69a3-57aa-1d7f-0e3a69d77abe,vital-signs,8867-4,Heart rate,75.9,/min,numeric
+1999-12-28T11:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,8b49b247-69a3-57aa-1d7f-0e3a69d77abe,vital-signs,8462-4,Diastolic Blood Pressure,76.3,mm[Hg],numeric
+1999-12-28T11:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,8b49b247-69a3-57aa-1d7f-0e3a69d77abe,vital-signs,8302-2,Body Height,189.3,cm,numeric
+1999-12-28T11:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,8b49b247-69a3-57aa-1d7f-0e3a69d77abe,vital-signs,29463-7,Body Weight,70.2,kg,numeric
+1999-12-28T11:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,8b49b247-69a3-57aa-1d7f-0e3a69d77abe,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,248.8,mg/dL,numeric
+2000-04-26T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,60f52925-992c-3ecb-95d4-c4beec7eeb17,vital-signs,8302-2,Body Height,189.4,cm,numeric
+2000-04-26T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,60f52925-992c-3ecb-95d4-c4beec7eeb17,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.3,%,numeric
+2000-04-26T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,60f52925-992c-3ecb-95d4-c4beec7eeb17,vital-signs,8867-4,Heart rate,91.1,/min,numeric
+2000-04-26T16:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,60f52925-992c-3ecb-95d4-c4beec7eeb17,vital-signs,29463-7,Body Weight,62.3,kg,numeric
+2016-12-07T14:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,acc94ca0-9c42-35f4-e137-2b5212cee09a,vital-signs,29463-7,Body Weight,53.8,kg,numeric
+2016-12-07T14:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,acc94ca0-9c42-35f4-e137-2b5212cee09a,vital-signs,2339-0,Glucose [Mass/volume] in Blood,75.4,mg/dL,numeric
+2016-12-07T14:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,acc94ca0-9c42-35f4-e137-2b5212cee09a,vital-signs,8302-2,Body Height,162.2,cm,numeric
+2016-12-07T14:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,acc94ca0-9c42-35f4-e137-2b5212cee09a,vital-signs,8462-4,Diastolic Blood Pressure,71.5,mm[Hg],numeric
+2016-12-13T09:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,74bd6217-c9ac-ac7f-aedd-fa7cc0202540,vital-signs,2339-0,Glucose [Mass/volume] in Blood,92.7,mg/dL,numeric
+2016-12-13T09:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,74bd6217-c9ac-ac7f-aedd-fa7cc0202540,vital-signs,8302-2,Body Height,154.9,cm,numeric
+2016-12-13T09:00:00Z,dcbb4187-44e4-e261-8d13-9f8dc473002c,74bd6217-c9ac-ac7f-aedd-fa7cc0202540,vital-signs,8867-4,Heart rate,61.4,/min,numeric
+1965-12-19T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,bf22d197-0169-e8c7-cdb2-e14fb6d70a2e,vital-signs,29463-7,Body Weight,92.1,kg,numeric
+1965-12-19T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,bf22d197-0169-e8c7-cdb2-e14fb6d70a2e,vital-signs,8867-4,Heart rate,62.4,/min,numeric
+1965-12-19T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,bf22d197-0169-e8c7-cdb2-e14fb6d70a2e,vital-signs,8462-4,Diastolic Blood Pressure,80.5,mm[Hg],numeric
+1965-12-19T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,bf22d197-0169-e8c7-cdb2-e14fb6d70a2e,vital-signs,39156-5,Body mass index (BMI) [Ratio],20.4,kg/m2,numeric
+1965-12-19T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,bf22d197-0169-e8c7-cdb2-e14fb6d70a2e,vital-signs,2339-0,Glucose [Mass/volume] in Blood,150.3,mg/dL,numeric
+1983-05-20T11:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,4a5b0ecf-2aea-2f0f-8484-c16c2969554b,vital-signs,39156-5,Body mass index (BMI) [Ratio],28.2,kg/m2,numeric
+1983-05-20T11:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,4a5b0ecf-2aea-2f0f-8484-c16c2969554b,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,236.5,mg/dL,numeric
+1983-05-20T11:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,4a5b0ecf-2aea-2f0f-8484-c16c2969554b,vital-signs,2339-0,Glucose [Mass/volume] in Blood,128.4,mg/dL,numeric
+1983-05-20T11:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,4a5b0ecf-2aea-2f0f-8484-c16c2969554b,vital-signs,8480-6,Systolic Blood Pressure,131.7,mm[Hg],numeric
+1984-09-27T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,c3d3d050-1450-b937-9ffb-d9198f4b68fd,vital-signs,8867-4,Heart rate,70.1,/min,numeric
+1984-09-27T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,c3d3d050-1450-b937-9ffb-d9198f4b68fd,vital-signs,8462-4,Diastolic Blood Pressure,83.6,mm[Hg],numeric
+1984-09-27T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,c3d3d050-1450-b937-9ffb-d9198f4b68fd,vital-signs,29463-7,Body Weight,58.9,kg,numeric
+1984-09-27T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,c3d3d050-1450-b937-9ffb-d9198f4b68fd,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.0,%,numeric
+1984-09-27T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,c3d3d050-1450-b937-9ffb-d9198f4b68fd,vital-signs,8480-6,Systolic Blood Pressure,117.1,mm[Hg],numeric
+1987-03-24T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,7a260b41-f6b4-3971-9ba4-325ddf9e5c09,vital-signs,2339-0,Glucose [Mass/volume] in Blood,172.6,mg/dL,numeric
+1987-03-24T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,7a260b41-f6b4-3971-9ba4-325ddf9e5c09,vital-signs,8462-4,Diastolic Blood Pressure,84.5,mm[Hg],numeric
+1987-03-24T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,7a260b41-f6b4-3971-9ba4-325ddf9e5c09,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,219.2,mg/dL,numeric
+1993-08-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,1d32ba51-fdef-591d-32be-8d898b6a6422,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,242.4,mg/dL,numeric
+1993-08-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,1d32ba51-fdef-591d-32be-8d898b6a6422,vital-signs,29463-7,Body Weight,71.1,kg,numeric
+1993-08-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,1d32ba51-fdef-591d-32be-8d898b6a6422,vital-signs,2339-0,Glucose [Mass/volume] in Blood,155.0,mg/dL,numeric
+1993-08-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,1d32ba51-fdef-591d-32be-8d898b6a6422,vital-signs,8302-2,Body Height,161.0,cm,numeric
+1993-08-22T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,aa5d7639-3a94-1f68-988e-2885e7217932,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,9.3,%,numeric
+1993-08-22T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,aa5d7639-3a94-1f68-988e-2885e7217932,vital-signs,2339-0,Glucose [Mass/volume] in Blood,153.9,mg/dL,numeric
+1993-08-22T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,aa5d7639-3a94-1f68-988e-2885e7217932,vital-signs,39156-5,Body mass index (BMI) [Ratio],35.8,kg/m2,numeric
+1993-08-22T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,aa5d7639-3a94-1f68-988e-2885e7217932,vital-signs,8462-4,Diastolic Blood Pressure,92.9,mm[Hg],numeric
+1993-08-22T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,aa5d7639-3a94-1f68-988e-2885e7217932,vital-signs,8480-6,Systolic Blood Pressure,149.9,mm[Hg],numeric
+1993-08-22T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,aa5d7639-3a94-1f68-988e-2885e7217932,vital-signs,29463-7,Body Weight,99.3,kg,numeric
+1994-12-17T12:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,9cb764c4-5ba9-6eed-89a3-29242bc5e8eb,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.7,%,numeric
+1994-12-17T12:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,9cb764c4-5ba9-6eed-89a3-29242bc5e8eb,vital-signs,8462-4,Diastolic Blood Pressure,96.4,mm[Hg],numeric
+1994-12-17T12:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,9cb764c4-5ba9-6eed-89a3-29242bc5e8eb,vital-signs,29463-7,Body Weight,84.9,kg,numeric
+1994-12-17T12:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,9cb764c4-5ba9-6eed-89a3-29242bc5e8eb,vital-signs,8480-6,Systolic Blood Pressure,134.6,mm[Hg],numeric
+1994-12-17T12:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,9cb764c4-5ba9-6eed-89a3-29242bc5e8eb,vital-signs,2339-0,Glucose [Mass/volume] in Blood,121.6,mg/dL,numeric
+1994-12-17T12:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,9cb764c4-5ba9-6eed-89a3-29242bc5e8eb,vital-signs,39156-5,Body mass index (BMI) [Ratio],22.4,kg/m2,numeric
+1996-11-26T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,99a0c8c4-4733-ff98-4510-29b4f5cd99d8,vital-signs,8462-4,Diastolic Blood Pressure,64.6,mm[Hg],numeric
+1996-11-26T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,99a0c8c4-4733-ff98-4510-29b4f5cd99d8,vital-signs,8480-6,Systolic Blood Pressure,107.3,mm[Hg],numeric
+1996-11-26T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,99a0c8c4-4733-ff98-4510-29b4f5cd99d8,vital-signs,2339-0,Glucose [Mass/volume] in Blood,78.9,mg/dL,numeric
+1996-11-26T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,99a0c8c4-4733-ff98-4510-29b4f5cd99d8,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,6.7,%,numeric
+1996-11-26T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,99a0c8c4-4733-ff98-4510-29b4f5cd99d8,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,203.1,mg/dL,numeric
+1996-11-26T08:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,99a0c8c4-4733-ff98-4510-29b4f5cd99d8,vital-signs,8867-4,Heart rate,69.4,/min,numeric
+2002-02-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,f09fdc53-a432-ce3c-44fe-f2e688cb2591,vital-signs,8480-6,Systolic Blood Pressure,120.8,mm[Hg],numeric
+2002-02-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,f09fdc53-a432-ce3c-44fe-f2e688cb2591,vital-signs,2339-0,Glucose [Mass/volume] in Blood,146.7,mg/dL,numeric
+2002-02-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,f09fdc53-a432-ce3c-44fe-f2e688cb2591,vital-signs,8302-2,Body Height,179.7,cm,numeric
+2002-02-17T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,f09fdc53-a432-ce3c-44fe-f2e688cb2591,vital-signs,8462-4,Diastolic Blood Pressure,72.6,mm[Hg],numeric
+2008-10-27T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,5943dea6-8241-6998-bc52-abdad3c93df4,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.7,%,numeric
+2008-10-27T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,5943dea6-8241-6998-bc52-abdad3c93df4,vital-signs,8480-6,Systolic Blood Pressure,146.5,mm[Hg],numeric
+2008-10-27T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,5943dea6-8241-6998-bc52-abdad3c93df4,vital-signs,2339-0,Glucose [Mass/volume] in Blood,100.5,mg/dL,numeric
+2008-10-27T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,5943dea6-8241-6998-bc52-abdad3c93df4,vital-signs,8462-4,Diastolic Blood Pressure,90.0,mm[Hg],numeric
+2008-10-27T14:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,5943dea6-8241-6998-bc52-abdad3c93df4,vital-signs,39156-5,Body mass index (BMI) [Ratio],33.1,kg/m2,numeric
+2009-12-12T16:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,d52a2ccf-3d4d-47cb-25ed-8dabf421c2a8,vital-signs,29463-7,Body Weight,75.1,kg,numeric
+2009-12-12T16:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,d52a2ccf-3d4d-47cb-25ed-8dabf421c2a8,vital-signs,39156-5,Body mass index (BMI) [Ratio],32.9,kg/m2,numeric
+2009-12-12T16:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,d52a2ccf-3d4d-47cb-25ed-8dabf421c2a8,vital-signs,8867-4,Heart rate,59.6,/min,numeric
+2020-10-23T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,460c46c2-ae6e-8909-6c03-7ee2911e8a14,vital-signs,39156-5,Body mass index (BMI) [Ratio],35.1,kg/m2,numeric
+2020-10-23T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,460c46c2-ae6e-8909-6c03-7ee2911e8a14,vital-signs,29463-7,Body Weight,92.8,kg,numeric
+2020-10-23T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,460c46c2-ae6e-8909-6c03-7ee2911e8a14,vital-signs,8302-2,Body Height,155.6,cm,numeric
+2020-10-23T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,460c46c2-ae6e-8909-6c03-7ee2911e8a14,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,146.5,mg/dL,numeric
+2020-10-23T15:00:00Z,a9605f20-1288-09b2-6a09-dd92a28bd525,460c46c2-ae6e-8909-6c03-7ee2911e8a14,vital-signs,8462-4,Diastolic Blood Pressure,66.2,mm[Hg],numeric
+1960-02-29T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,c01ae795-ace9-c39f-24d9-d5fae440218a,vital-signs,8462-4,Diastolic Blood Pressure,79.2,mm[Hg],numeric
+1960-02-29T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,c01ae795-ace9-c39f-24d9-d5fae440218a,vital-signs,8302-2,Body Height,158.5,cm,numeric
+1960-02-29T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,c01ae795-ace9-c39f-24d9-d5fae440218a,vital-signs,2339-0,Glucose [Mass/volume] in Blood,108.8,mg/dL,numeric
+1960-02-29T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,c01ae795-ace9-c39f-24d9-d5fae440218a,vital-signs,8867-4,Heart rate,75.1,/min,numeric
+1960-02-29T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,c01ae795-ace9-c39f-24d9-d5fae440218a,vital-signs,29463-7,Body Weight,68.5,kg,numeric
+1974-10-27T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,5d4498d7-c8b3-4605-4b56-5a0eaae695d1,vital-signs,8480-6,Systolic Blood Pressure,102.8,mm[Hg],numeric
+1974-10-27T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,5d4498d7-c8b3-4605-4b56-5a0eaae695d1,vital-signs,8302-2,Body Height,170.2,cm,numeric
+1974-10-27T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,5d4498d7-c8b3-4605-4b56-5a0eaae695d1,vital-signs,8462-4,Diastolic Blood Pressure,81.7,mm[Hg],numeric
+1974-10-27T11:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,5d4498d7-c8b3-4605-4b56-5a0eaae695d1,vital-signs,39156-5,Body mass index (BMI) [Ratio],32.5,kg/m2,numeric
+1975-10-07T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,b11b4bb4-d834-7230-fede-7eaa39573412,vital-signs,8867-4,Heart rate,71.9,/min,numeric
+1975-10-07T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,b11b4bb4-d834-7230-fede-7eaa39573412,vital-signs,8462-4,Diastolic Blood Pressure,81.7,mm[Hg],numeric
+1975-10-07T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,b11b4bb4-d834-7230-fede-7eaa39573412,vital-signs,8480-6,Systolic Blood Pressure,113.5,mm[Hg],numeric
+1975-10-07T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,b11b4bb4-d834-7230-fede-7eaa39573412,vital-signs,2339-0,Glucose [Mass/volume] in Blood,157.1,mg/dL,numeric
+1975-10-07T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,b11b4bb4-d834-7230-fede-7eaa39573412,vital-signs,8302-2,Body Height,168.3,cm,numeric
+1988-01-29T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,d62108cb-281c-545d-5007-7751d100107f,vital-signs,8462-4,Diastolic Blood Pressure,73.5,mm[Hg],numeric
+1988-01-29T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,d62108cb-281c-545d-5007-7751d100107f,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.1,%,numeric
+1988-01-29T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,d62108cb-281c-545d-5007-7751d100107f,vital-signs,8867-4,Heart rate,62.7,/min,numeric
+1993-12-10T12:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,acf1546f-daaf-70b3-7b13-2e1890b40a6d,vital-signs,8302-2,Body Height,173.1,cm,numeric
+1993-12-10T12:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,acf1546f-daaf-70b3-7b13-2e1890b40a6d,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,217.7,mg/dL,numeric
+1993-12-10T12:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,acf1546f-daaf-70b3-7b13-2e1890b40a6d,vital-signs,8480-6,Systolic Blood Pressure,142.6,mm[Hg],numeric
+1993-12-10T12:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,acf1546f-daaf-70b3-7b13-2e1890b40a6d,vital-signs,39156-5,Body mass index (BMI) [Ratio],27.9,kg/m2,numeric
+1997-09-09T10:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,88c64794-7ed5-0777-f680-d43f0080a1df,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,183.6,mg/dL,numeric
+1997-09-09T10:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,88c64794-7ed5-0777-f680-d43f0080a1df,vital-signs,8462-4,Diastolic Blood Pressure,67.0,mm[Hg],numeric
+1997-09-09T10:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,88c64794-7ed5-0777-f680-d43f0080a1df,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,5.6,%,numeric
+2017-05-14T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,cb4958d6-d45a-f3e9-3dfc-157ce30213ef,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.4,%,numeric
+2017-05-14T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,cb4958d6-d45a-f3e9-3dfc-157ce30213ef,vital-signs,8867-4,Heart rate,75.2,/min,numeric
+2017-05-14T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,cb4958d6-d45a-f3e9-3dfc-157ce30213ef,vital-signs,8480-6,Systolic Blood Pressure,150.5,mm[Hg],numeric
+2017-05-14T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,cb4958d6-d45a-f3e9-3dfc-157ce30213ef,vital-signs,8302-2,Body Height,187.6,cm,numeric
+2017-05-14T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,cb4958d6-d45a-f3e9-3dfc-157ce30213ef,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,169.5,mg/dL,numeric
+2017-05-14T16:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,cb4958d6-d45a-f3e9-3dfc-157ce30213ef,vital-signs,8462-4,Diastolic Blood Pressure,91.3,mm[Hg],numeric
+2023-01-27T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,f1eccaf1-917f-f4e8-52e1-578ea622cd2b,vital-signs,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,209.1,mg/dL,numeric
+2023-01-27T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,f1eccaf1-917f-f4e8-52e1-578ea622cd2b,vital-signs,29463-7,Body Weight,89.2,kg,numeric
+2023-01-27T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,f1eccaf1-917f-f4e8-52e1-578ea622cd2b,vital-signs,2339-0,Glucose [Mass/volume] in Blood,132.4,mg/dL,numeric
+2023-01-27T14:00:00Z,cc4f1bed-dd68-2cb7-b2e1-e791116ab21c,f1eccaf1-917f-f4e8-52e1-578ea622cd2b,laboratory,4548-4,Hemoglobin A1c/Hemoglobin.total in Blood,8.2,%,numeric

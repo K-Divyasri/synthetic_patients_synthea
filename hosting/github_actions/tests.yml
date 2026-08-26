@@ -1,0 +1,47 @@
+# Test suite workflow.
+#
+# IMPORTANT: in your real repo this file must live at  .github/workflows/tests.yml
+# It will NOT run from anywhere else. The copy here under hosting/ is just the template.
+#
+# What it does: on every push, every pull request, and on demand, it spins up a fresh
+# Ubuntu box, installs your Python deps, and runs the pytest suite in build_from_scratch.
+# Green check = the generator and explorer still work. That check is what turns
+# "I wrote some code" into "I wrote tested code" for anyone reading your repo.
+
+name: Tests
+
+on:
+  push:
+  pull_request:
+  # Lets you trigger it by hand from the Actions tab (Run workflow button).
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Pull your code onto the runner.
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      # 2. Install Python. Match the version your project uses.
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 3. Install dependencies. Everything the tests need must be in this
+      #    requirements.txt (pandas, Faker, pytest). If a package isn't listed it
+      #    won't exist on the runner, even if it's installed on your laptop.
+      - name: Install dependencies
+        working-directory: build_from_scratch
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Run the tests from inside build_from_scratch, where the packages and the
+      #    tests/ folder live. -v prints one line per test so a failure is easy to spot.
+      - name: Run pytest
+        working-directory: build_from_scratch
+        run: pytest -v

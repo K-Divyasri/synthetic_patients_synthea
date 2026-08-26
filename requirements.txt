@@ -1,0 +1,6 @@
+# Core dependencies for the mini-Synthea generator and the explorer.
+pandas>=2.0
+Faker>=24.0
+pytest>=8.0
+
+# The REAL Synthea is a separate Java tool (no pip). See run_real_synthea.md.

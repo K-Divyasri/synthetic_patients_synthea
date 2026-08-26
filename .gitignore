@@ -1,0 +1,17 @@
+# Keep the habit from Project 1: data and secrets stay out of git. The committed
+# sample under data/sample/ is the ONE small exception (it's synthetic and tiny);
+# everything else generated is ignored.
+data/output/
+out/
+*.zip
+
+# Real Synthea downloads
+synthea-with-dependencies.jar
+synthea/
+
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

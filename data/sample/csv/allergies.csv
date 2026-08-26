@@ -1,0 +1,9 @@
+START,STOP,PATIENT,ENCOUNTER,CODE,SYSTEM,DESCRIPTION,TYPE,CATEGORY,REACTION1,DESCRIPTION1,SEVERITY1,REACTION2,DESCRIPTION2,SEVERITY2
+2006-11-24,,87751d4c-a850-1e2c-44dc-da6a797d76de,3926847b-8248-f803-a97b-cc25ea3fa51c,419263009,SNOMED-CT,Allergy to tree pollen (finding),allergy,environment,21626009,Cutaneous hypersensitivity (finding),SEVERE,,,
+1949-06-30,,0a0f7ff7-1a02-4e93-ce40-d2dfa9ffa6a3,8b6fc8d0-cf85-d960-707d-45138675084a,91934008,SNOMED-CT,Allergy to nut (finding),allergy,environment,271807003,Eruption of skin (disorder),SEVERE,,,
+1945-06-12,,71753a08-3a73-c0e6-3896-847c07e0eb85,cf0c9f63-7629-9946-6da8-052dbd28434a,232347008,SNOMED-CT,Dander (animal) allergy (finding),allergy,environment,76067001,Sneezing (finding),MILD,,,
+2004-07-19,,ebb2fa32-1a3d-d820-3b52-6510fbdeef80,41f2fdf9-79ce-208a-7d04-2871a9930b3e,232347008,SNOMED-CT,Dander (animal) allergy (finding),allergy,environment,76067001,Sneezing (finding),MILD,,,
+2017-06-21,,97a49c73-7981-820a-9b7f-6b3c434ab313,99125eb9-354c-a61f-c83e-7523884bd5a6,232347008,SNOMED-CT,Dander (animal) allergy (finding),allergy,environment,76067001,Sneezing (finding),SEVERE,,,
+1990-07-25,,f223473a-fe17-5270-8628-5c520df06a09,926f39ae-f2f7-2883-39a3-647a0e277afe,232347008,SNOMED-CT,Dander (animal) allergy (finding),allergy,environment,76067001,Sneezing (finding),MODERATE,,,
+1979-01-20,,052d494b-5020-21b1-50b1-657acffd0cb3,c7ea541d-7ef6-00ec-2297-4c1ec8964efe,419263009,SNOMED-CT,Allergy to tree pollen (finding),allergy,environment,21626009,Cutaneous hypersensitivity (finding),MODERATE,,,
+2002-06-08,,e01fcab9-2df4-f80f-5bad-91e683499e88,e30c9f80-f498-15d2-46bb-52c756a628e3,91934008,SNOMED-CT,Allergy to nut (finding),allergy,environment,271807003,Eruption of skin (disorder),MODERATE,,,

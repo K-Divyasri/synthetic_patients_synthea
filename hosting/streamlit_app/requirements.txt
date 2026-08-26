@@ -1,0 +1,11 @@
+# What Streamlit Community Cloud installs to run app.py.
+#
+# Your own code (synthea_mini and synthea_explorer) is NOT listed here - it lives in
+# the repo under build_from_scratch/ and the app adds it to the import path itself.
+# Only third-party packages go in this file.
+#
+# No matplotlib: the charts use Streamlit's built-in st.bar_chart.
+
+streamlit>=1.30
+pandas>=2.0
+Faker>=24.0

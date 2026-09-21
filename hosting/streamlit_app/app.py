@@ -9,10 +9,9 @@ Nothing here touches real patient data. The whole point of the project is that y
 practise on invented patients, so this is safe to put on the public internet.
 
 How it finds the project code: this file lives in
-    02_synthetic_patients_synthea/hosting/streamlit_app/app.py
-and the real packages live in
-    02_synthetic_patients_synthea/build_from_scratch/
-so we walk up two folders (to the project root) and add build_from_scratch/ to the
+    hosting/streamlit_app/app.py
+and the real packages (synthea_mini/ and synthea_explorer/) live at the repo root,
+so we walk up two folders (to the repo root) and add it to the
 import path. After that, `import synthea_mini` works just like it does in a notebook.
 """
 
@@ -22,9 +21,9 @@ import tempfile
 from datetime import date
 
 # --- Make the project's packages importable -------------------------------------
-# parents[0] = streamlit_app, parents[1] = hosting, parents[2] = project root.
-# Then build_from_scratch/ holds synthea_mini and synthea_explorer.
-PROJECT_CODE = pathlib.Path(__file__).resolve().parents[2] / "build_from_scratch"
+# parents[0] = streamlit_app, parents[1] = hosting, parents[2] = repo root.
+# The repo root holds synthea_mini and synthea_explorer.
+PROJECT_CODE = pathlib.Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_CODE))
 
 import pandas as pd
@@ -32,7 +31,7 @@ import streamlit as st
 
 # These are the real functions from your project - the same ones the tests and the
 # notebooks use. If any of these imports fail in the cloud, it almost always means
-# build_from_scratch/ didn't get pushed to GitHub alongside hosting/.
+# the packages at the repo root didn't get pushed to GitHub alongside hosting/.
 from synthea_mini import generate_population, write_tables, build_patient_bundle
 from synthea_explorer import (
     load_synthea,
@@ -233,7 +232,7 @@ with st.expander("Show the raw FHIR JSON for this patient"):
 
 st.divider()
 st.caption(
-    "Code: synthea_mini + synthea_explorer in build_from_scratch/. "
+    "Code: synthea_mini + synthea_explorer at the repo root. "
     "Real Synthea: https://synthetichealth.github.io/synthea/  -  "
     "Synthetic data only; never host real PHI."
 )

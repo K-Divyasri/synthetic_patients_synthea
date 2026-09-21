@@ -60,7 +60,7 @@ git config --global user.email "mathuransada@gmail.com"
 
 In a health-tech project, the cardinal sin is committing data. Synthetic or not, you
 want "generated data never goes in Git" to be muscle memory now, so that the day you
-touch real PHI you don't even have to think about it. `build_from_scratch/` already
+touch real PHI you don't even have to think about it. The repo already
 ships a `.gitignore`. Open it and confirm it contains at least these lines:
 
 ```
@@ -90,24 +90,23 @@ generates its data in memory every time it loads. So unlike Project 1, there's n
 `DB_URL` or salt to manage - nothing to put in GitHub Secrets. One less thing to get
 wrong.
 
-### 1c. Decide what to push - push the whole project folder
+### 1c. Decide what to push - push the whole repo
 
-The simplest, cleanest option is to make the **whole project folder**
-(`02_synthetic_patients_synthea/`) one repo. That way `hosting/` and
-`build_from_scratch/` sit together exactly as the app expects: the Streamlit app
-reaches from `hosting/streamlit_app/app.py` up two levels and into
-`build_from_scratch/` to import your `synthea_mini` and `synthea_explorer` packages.
+The simplest, cleanest option is to make the **whole repo** one repo. That way
+`hosting/` and the `synthea_mini/` and `synthea_explorer/` packages sit together
+exactly as the app expects: the Streamlit app reaches from
+`hosting/streamlit_app/app.py` up two levels to the repo root to import your
+`synthea_mini` and `synthea_explorer` packages.
 
-If you push only `build_from_scratch/` on its own, the Streamlit app won't find the
-code and the deploy will fail. So push from the project root.
+If you push `hosting/` without those packages, the Streamlit app won't find the
+code and the deploy will fail. So push from the repo root.
 
-> If the project root doesn't have its own `.gitignore`, copy the one from
-> `build_from_scratch/` up to the root, or just make sure the rules in 1b are in
+> If the repo root doesn't have its own `.gitignore`, make sure the rules in 1b are in
 > effect from wherever you run `git init`.
 
 ### 1d. Initialize, stage, commit
 
-From the project root (`02_synthetic_patients_synthea/`):
+From the repo root:
 
 ```powershell
 git init
@@ -192,9 +191,9 @@ your new repo immediately.
 
    That main file path is the one people get wrong. It is the path **inside your
    repo** to the app script. Type it exactly: `hosting/streamlit_app/app.py`. If you
-   pushed only the `build_from_scratch` folder instead of the whole project, this
+   pushed only part of the repo instead of the whole thing, this
    path won't exist and the deploy will fail - that's the reason Step 1 said push
-   from the project root.
+   from the repo root.
 
 4. Click **Deploy**.
 
@@ -216,10 +215,10 @@ the internet.
 Click into the log; the real error is usually near the bottom.
 
 - `ModuleNotFoundError: No module named 'synthea_mini'` (or `synthea_explorer`) - the
-  repo doesn't contain `build_from_scratch/`, or you deployed from the wrong folder.
-  The app reaches from `hosting/streamlit_app/app.py` up two levels and into
-  `build_from_scratch/` to find those packages. Both folders must be in the same
-  repo. Push from the project root and redeploy.
+  repo doesn't contain those packages at its root, or you deployed from the wrong
+  folder. The app reaches from `hosting/streamlit_app/app.py` up two levels to the
+  repo root to find those packages. `hosting/` and the packages must be in the same
+  repo. Push from the repo root and redeploy.
 - `ModuleNotFoundError: No module named 'faker'` (or pandas) - a package is missing
   from `hosting/streamlit_app/requirements.txt`. Add it, push, and Streamlit
   redeploys automatically on the next push.
@@ -233,7 +232,7 @@ anything after the first time.
 
 ## Step 3 - Turn on CI (run the tests automatically)
 
-Your `build_from_scratch/` folder has a pytest suite (around 12 tests). Right now
+Your repo has a pytest suite (around 12 tests). Right now
 those only run when you type `pytest`. GitHub Actions runs them for you on every
 push, on GitHub's machines, for free, and shows a green check on your repo when they
 pass. That green check is what turns "I wrote some code" into "I wrote tested code."
@@ -264,13 +263,11 @@ short, on every push or pull request (and on demand from the Actions tab) it:
 
 1. Checks out your code onto a fresh Ubuntu box.
 2. Installs Python 3.12.
-3. Installs `build_from_scratch/requirements.txt` (pandas, Faker, pytest).
-4. Runs `pytest -v` inside `build_from_scratch/`.
+3. Installs `requirements.txt` (pandas, Faker, pytest).
+4. Runs `pytest -v` from the repo root.
 
-The `working-directory: build_from_scratch` line on the install and test steps is the
-important detail: it tells the runner to stand inside that folder, because that's
-where the packages and the `tests/` folder live. Run pytest from the repo root and it
-wouldn't find them.
+There is no `working-directory:` line, and that is deliberate: the packages and the
+`tests/` folder both live at the repo root, which is where the runner starts.
 
 If every test passes, the run is green. If one fails, it goes red and GitHub emails
 you.

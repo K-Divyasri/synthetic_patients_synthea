@@ -29,7 +29,7 @@ The easiest route is the pre-built jar - no compiling.
 
 - Go to the releases page: <https://github.com/synthetichealth/synthea/releases>
 - Download `synthea-with-dependencies.jar` from the latest release.
-- Put it in a working folder, e.g. this `build_from_scratch/` folder. (It's already
+- Put it in a working folder, e.g. the repo root. (It's already
   in `.gitignore` - the jar is large and shouldn't go in your repo.)
 
 (Alternatively, clone the repo and use the `run_synthea` script - see the official
@@ -66,7 +66,7 @@ Point the explorer at the real CSV folder - same code, real data:
 ```
 
 Or open any notebook and change the data path from the sample folder to
-`build_from_scratch/output/csv`. Everything else just works.
+`output/csv`. Everything else just works.
 
 ## A note on scale and git
 

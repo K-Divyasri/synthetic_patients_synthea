@@ -7,7 +7,7 @@ files, with the same column names and the same coding systems, so:
 
 It is NOT a clinical simulator like the real Synthea - it won't model disease
 progression realistically. It's a faithful *schema* twin for learning. When you're
-ready for the real thing, see build_from_scratch/run_real_synthea.md; the explorer
+ready for the real thing, see run_real_synthea.md; the explorer
 and notebooks will load that output too.
 """
 from __future__ import annotations
